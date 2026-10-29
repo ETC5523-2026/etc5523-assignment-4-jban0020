@@ -1,0 +1,26 @@
+
+#' Stopped Runners at the 2026 Backyard Ultra World Team Championships
+#'
+#' A dataset containing 925 runner records from the 2026
+#' Backyard Ultra World Team Championships. The data records
+#' runner performance, nation, competition class and
+#' stopping information.
+#'
+#' @format A data frame with 925 rows and 9 variables:
+#' \describe{
+#'   \item{runner}{Name of the runner.}
+#'   \item{nation}{Nation represented by the runner.}
+#'   \item{class}{Competition class of the runner.}
+#'   \item{yards}{Number of yards completed.}
+#'   \item{code}{Code indicating the stopping reason.}
+#'   \item{reason}{Description of why the runner stopped.}
+#'   \item{stopped_utc}{Stopping date and time in UTC.}
+#'   \item{local_time}{Local time recorded at stopping.}
+#'   \item{qualified_yards}{Recorded qualifying yard count.}
+#' }
+#'
+#' @source Original CSV stored in
+#'   `data-raw/wtc2026-stopped-after-yard-124.csv`.
+#'   The original public data source should also be
+#'   attributed in the package README.
+"wtc_stopped"
