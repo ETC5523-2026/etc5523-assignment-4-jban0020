@@ -148,6 +148,17 @@ ui <- fluidPage(
         selected = "median_yards"
       ),
       
+      selectInput(
+        inputId = "plot_type",
+        label = "Chart view",
+        choices = c(
+          "Performance comparison" = "bars",
+          "Runner distribution" = "distribution"
+        ),
+        selected = "bars"
+      ),
+      
+      
       conditionalPanel(
         condition = "input.group_by == 'nation'",
         
@@ -185,6 +196,19 @@ ui <- fluidPage(
         class = "app-note",
         
         h4("How to interpret the results"),
+        
+        p(
+          "Use the chart view selector to switch between ",
+          "group summaries and individual runner distributions."
+        ),
+        
+        p(
+          "In the distribution chart, each dot represents ",
+          "one stopped runner. The line inside each box ",
+          "shows the median, while the box covers the middle ",
+          "50% of performances. Wider boxes indicate more ",
+          "variation between runners."
+        ),
         
         p(
           "Each bar represents the selected average or median ",
@@ -323,6 +347,52 @@ server <- function(input, output, session) {
       "Median completed yards"
     } else {
       "Mean completed yards"
+    }
+    
+    if (input$plot_type == "distribution") {
+      
+      runner_data <- filtered_data()
+      
+      runner_data <- runner_data[
+        runner_data$yards >= input$min_yards &
+          runner_data[[input$group_by]] %in% results$group,
+        ,
+        drop = FALSE
+      ]
+      
+      runner_data$display_group <- factor(
+        runner_data[[input$group_by]],
+        levels = rev(results$group)
+      )
+      
+      return(
+        ggplot(
+          runner_data,
+          aes(x = display_group, y = yards)
+        ) +
+          geom_boxplot(
+            fill = "#006DAE",
+            alpha = 0.3,
+            outlier.shape = NA
+          ) +
+          geom_jitter(
+            width = 0.12,
+            alpha = 0.3,
+            size = 1
+          ) +
+          coord_flip() +
+          labs(
+            title = "Distribution of runner performance",
+            subtitle = "Each point represents one stopped runner",
+            x = NULL,
+            y = "Completed yards"
+          ) +
+          theme_minimal(base_size = 13) +
+          theme(
+            plot.title = element_text(face = "bold"),
+            panel.grid.major.y = element_blank()
+          )
+      )
     }
     
     ggplot(
