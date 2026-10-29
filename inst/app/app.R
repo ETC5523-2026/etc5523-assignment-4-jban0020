@@ -57,6 +57,48 @@ ui <- fluidPage(
     )
   ),
   
+  div(
+    class = "app-note",
+
+    h4("Understanding the data"),
+
+    p(
+      strong("Completed yards: "),
+      "The number of race laps completed by each runner. ",
+      "In backyard ultra running, each lap is called a yard."
+    ),
+
+    p(
+      strong("Nation: "),
+      "The country represented by the runner."
+    ),
+
+    p(
+      strong("Competition class: "),
+      "The category in which the runner competed."
+    ),
+
+    h4("How to use the dashboard"),
+
+    p(
+      "Choose whether to compare nations or competition classes. ",
+      "Select specific nations, or leave the nation selection ",
+      "empty to include everyone in the dataset."
+    ),
+
+    p(
+      "Use the competition class checkboxes and minimum yard ",
+      "filter to focus on particular runners. Switch between ",
+      "mean and median yards to see how the comparison changes."
+    ),
+
+    p(
+      "When comparing nations, adjust the number displayed ",
+      "to focus on the highest-ranked groups. The summary ",
+      "table still includes all groups matching your filters."
+    )
+  ),
+  
   sidebarLayout(
     
     sidebarPanel(
