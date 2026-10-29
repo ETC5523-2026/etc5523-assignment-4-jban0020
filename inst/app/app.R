@@ -59,39 +59,39 @@ ui <- fluidPage(
   
   div(
     class = "app-note",
-
+    
     h4("Understanding the data"),
-
+    
     p(
       strong("Completed yards: "),
       "The number of race laps completed by each runner. ",
       "In backyard ultra running, each lap is called a yard."
     ),
-
+    
     p(
       strong("Nation: "),
       "The country represented by the runner."
     ),
-
+    
     p(
       strong("Competition class: "),
       "The category in which the runner competed."
     ),
-
+    
     h4("How to use the dashboard"),
-
+    
     p(
       "Choose whether to compare nations or competition classes. ",
       "Select specific nations, or leave the nation selection ",
       "empty to include everyone in the dataset."
     ),
-
+    
     p(
       "Use the competition class checkboxes and minimum yard ",
       "filter to focus on particular runners. Switch between ",
       "mean and median yards to see how the comparison changes."
     ),
-
+    
     p(
       "When comparing nations, adjust the number displayed ",
       "to focus on the highest-ranked groups. The summary ",
@@ -303,16 +303,51 @@ server <- function(input, output, session) {
     validate(
       need(
         nrow(results) > 0,
-        "No runners match the selected filters."
+        paste(
+          "No runners match your selection.",
+          "Try selecting more nations or classes,",
+          "or reducing the minimum completed yards."
+        )
       )
     )
     
-    paste(
+    group_label <- if (input$group_by == "nation") {
+      "nations"
+    } else {
+      "competition classes"
+    }
+    
+    metric_label <- if (input$metric == "median_yards") {
+      "median"
+    } else {
+      "mean"
+    }
+    
+    message <- paste0(
       sum(results$runners),
-      "stopped runners across",
+      " stopped runners across ",
       nrow(results),
-      "groups match your selection."
+      " ",
+      group_label,
+      " match your selection. ",
+      "Groups are ranked by ",
+      metric_label,
+      " completed yards."
     )
+    
+    small_groups <- sum(results$runners < 5)
+    
+    if (small_groups > 0) {
+      message <- paste0(
+        message,
+        " Caution: ",
+        small_groups,
+        " group(s) contain fewer than five runners. ",
+        "Their summary statistics should be interpreted carefully."
+      )
+    }
+    
+    message
   })
   
   # Performance chart
@@ -324,7 +359,7 @@ server <- function(input, output, session) {
     validate(
       need(
         nrow(results) > 0,
-        "No runners match the selected filters. Try reducing the minimum yards."
+        "No results to plot. Try including more nations or classes, or lowering the minimum completed yards."
       )
     )
     
@@ -436,7 +471,7 @@ server <- function(input, output, session) {
     validate(
       need(
         nrow(results) > 0,
-        "No data available for the selected filters."
+        "No summary available for these filters. Try broadening your selection."
       )
     )
     
