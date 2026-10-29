@@ -1,3 +1,4 @@
+utils::globalVariables("wtc_stopped")
 
 #' Summarise Backyard Ultra Runner Performance
 #'
@@ -72,7 +73,7 @@ summarise_stopped_runners <- function(data = wtc_stopped,
     group = names(groups),
     runners = vapply(groups, length, integer(1)),
     mean_yards = vapply(groups, mean, numeric(1)),
-    median_yards = vapply(groups, median, numeric(1)),
+    median_yards = vapply(groups, stats::median, numeric(1)),
     max_yards = vapply(groups, max, numeric(1)),
     total_yards = vapply(groups, sum, numeric(1)),
     row.names = NULL

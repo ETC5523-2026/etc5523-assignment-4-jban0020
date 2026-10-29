@@ -2,3 +2,4 @@
 
 export(run_wtc_app)
 export(summarise_stopped_runners)
+importFrom(ggplot2,ggplot)

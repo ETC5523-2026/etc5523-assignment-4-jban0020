@@ -16,6 +16,7 @@
 #' run_wtc_app()
 #' }
 #'
+#' @importFrom ggplot2 ggplot
 #' @export
 
 run_wtc_app <- function() {
