@@ -1,0 +1,17 @@
+Package: backyardWTC
+Title: Explore Stopped Runners at the 2026 Backyard Ultra Championships
+Version: 0.1.0
+Authors@R:
+    person("Joshua", "Bannon", email = "jban0020@student.monash.edu", role = c("aut", "cre"))
+Description: Contains a dataset of stopped runners from the 2026 Backyard
+    Ultra World Team Championships. Provides functions for summarising
+    runner performance across nations and competition classes, alongside
+    an interactive Shiny application for exploring the results.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    shiny,
+    ggplot2
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3

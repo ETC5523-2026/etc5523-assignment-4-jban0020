@@ -1,0 +1,926 @@
+runner,nation,class,yards,code,reason,stopped_utc,local_time,qualified_yards
+Ivo Steyaert,Belgium,Super Six,124,RTC,Did not start yard 125,2026-10-22 16:00,18:00,113
+Merijn Geerts,Belgium,Super Six,124,RTC,Did not start yard 125,2026-10-22 16:00,18:00,110
+Jon Noll,United States of America,Super Six,106,INC,Did not finish yard 107,2026-10-21 23:00,18:00,111
+Kengo Takahashi,Japan,Super Six,104,INC,Did not finish yard 105,2026-10-21 21:00,06:00,77
+Julien Pierlot,France,Super Six,100,RTC,Did not start yard 101,2026-10-21 16:00,18:00,71
+Nicholas Steel,United States of America,Super Six,94,INC,Did not finish yard 95,2026-10-21 11:00,06:00,53
+Greg Fall,United States of America,Super Six,92,INC,Did not finish yard 93,2026-10-21 09:00,04:00,80
+Kyohei Yoshizaw,Japan,Super Six,92,INC,Did not finish yard 93,2026-10-21 09:00,18:00,76
+Matthew Blackburn,United Kingdom,Class AAA,89,INC,Did not finish yard 90,2026-10-21 06:00,07:00,63
+Ben Nicholls,Australia,Super Six,86,INC,Did not finish yard 87,2026-10-21 03:00,14:00,72
+bert verbist,Belgium,Super Six,86,INC,Did not finish yard 87,2026-10-21 03:00,05:00,65
+Levi Yoder,United States of America,Super Six,86,RTC,Did not start yard 87,2026-10-21 02:00,21:00,75
+Nick Petterson,United States of America,Super Six,84,INC,Did not finish yard 85,2026-10-21 01:00,20:00,63
+Harvey Lewis,United States of America,Super Six,83,INC,Did not finish yard 84,2026-10-21 00:00,19:00,111
+Jay Stapley,United Kingdom,Class AAA,83,INC,Did not finish yard 84,2026-10-21 00:00,01:00,61
+Grzegorz Sułek,Poland,Class AAA,82,INC,Did not finish yard 83,2026-10-20 23:00,01:00,52
+Megan Smyth,United States of America,Super Six,82,INC,Did not finish yard 83,2026-10-20 23:00,18:00,77
+James Luxton,United Kingdom,Class AAA,81,INC,Did not finish yard 82,2026-10-20 22:00,23:00,58
+Michael Rouleau,Canada,Class AAA,81,INC,Did not finish yard 82,2026-10-20 22:00,15:00,45
+Dimitrii Romanyuk,AIN,Super Six,80,RTC,Did not start yard 81,2026-10-20 20:00,23:00,78
+Tetsuo Kiso,Japan,Super Six,79,RTC,Did not start yard 80,2026-10-20 19:00,04:00,75
+Kenneth Vanthuyne,Belgium,Super Six,78,OVER,Over the hour on yard 79,2026-10-20 19:00,21:00,100
+Mathieu Dube,Australia,Super Six,78,INC,Did not finish yard 79,2026-10-20 19:00,06:00,60
+Brady Nankervis,Australia,Super Six,77,INC,Did not finish yard 78,2026-10-20 18:00,05:00,68
+Iain Bethune,United Kingdom,Class AAA,76,INC,Did not finish yard 77,2026-10-20 17:00,18:00,64
+Jack Hanley,Australia,Super Six,76,INC,Did not finish yard 77,2026-10-20 17:00,04:00,74
+Sarah Perry,United Kingdom,Class AAA,76,OVER,Over the hour on yard 77,2026-10-20 17:00,18:00,95
+Theo Atkinson,New Zealand,Class AAA,76,INC,Did not finish yard 77,2026-10-20 17:00,06:00,29
+Jayden McCormack,Australia,Super Six,75,INC,Did not finish yard 76,2026-10-20 16:00,03:00,68
+Jeff Walker,United States of America,Super Six,75,INC,Did not finish yard 76,2026-10-20 16:00,11:00,45
+Piotr Szymański,Poland,Class AAA,75,INC,Did not finish yard 76,2026-10-20 16:00,18:00,53
+Tim Kacprzak,Australia,Super Six,75,INC,Did not finish yard 76,2026-10-20 16:00,03:00,75
+Nick Burmey,Canada,Class AAA,74,RTC,Did not start yard 75,2026-10-20 14:00,07:00,55
+Brandon-Lee Grech,Australia,Super Six,73,INC,Did not finish yard 74,2026-10-20 14:00,01:00,72
+Łukasz Wróbel,Poland,Class AAA,73,OVER,Over the hour on yard 74,2026-10-20 14:00,16:00,116
+Mateusz Tatara,Poland,Class AAA,73,OVER,Over the hour on yard 74,2026-10-20 14:00,16:00,48
+Sam Christie,Australia,Super Six,73,OVER,Over the hour on yard 74,2026-10-20 14:00,01:00,68
+Alex Hernández muñoz,Mexico,Class AAA,72,INC,Did not finish yard 73,2026-10-20 13:00,06:00,55
+Benoît Badot,Belgium,Super Six,72,INC,Did not finish yard 73,2026-10-20 13:00,15:00,61
+James Blanton,Australia,Super Six,72,INC,Did not finish yard 73,2026-10-20 13:00,00:00,82
+Jon Asphjell,Norway,Class AAA,72,INC,Did not finish yard 73,2026-10-20 13:00,15:00,59
+Maxime Le Meitour,France,Super Six,72,INC,Did not finish yard 73,2026-10-20 13:00,15:00,65
+Sebastien Despas,France,Super Six,72,INC,Did not finish yard 73,2026-10-20 13:00,15:00,34
+Daniel Beswick,New Zealand,Class AAA,71,INC,Did not finish yard 72,2026-10-20 12:00,01:00,54
+Terumichi Morishita,Japan,Super Six,71,INC,Did not finish yard 72,2026-10-20 12:00,21:00,74
+Barry Keem,Australia,Super Six,70,INC,Did not finish yard 71,2026-10-20 11:00,22:00,73
+Brion Matthews,New Zealand,Class AAA,70,INC,Did not finish yard 71,2026-10-20 11:00,00:00,55
+Michitaro Mizuno,Japan,Super Six,70,OVER,Over the hour on yard 71,2026-10-20 11:00,20:00,94
+Nora Kojen Stubbe,Norway,Class AAA,70,RTC,Did not start yard 71,2026-10-20 10:00,12:00,47
+Ryan Snickles,United States of America,Super Six,69,OVER,Over the hour on yard 70,2026-10-20 10:00,05:00,55
+Pérez López Bernardo,Mexico,Class AAA,69,RTC,Did not start yard 70,2026-10-20 09:00,02:00,48
+Callens Evariest,Belgium,Super Six,68,INC,Did not finish yard 69,2026-10-20 09:00,11:00,64
+Gudjon Sigurdsson,Iceland,Class AAA,68,INC,Did not finish yard 69,2026-10-20 09:00,09:00,43
+Mamoru Haga,Japan,Super Six,68,INC,Did not finish yard 69,2026-10-20 09:00,18:00,65
+Matt Radford,New Zealand,Class AAA,68,INC,Did not finish yard 69,2026-10-20 09:00,22:00,37
+Niko Langner,Germany,Class AAA,68,INC,Did not finish yard 69,2026-10-20 09:00,11:00,61
+Pier-Alexandre Beaulieu,Canada,Class AAA,68,INC,Did not finish yard 69,2026-10-20 09:00,02:00,52
+Sonia Poutrel,France,Super Six,68,OVER,Over the hour on yard 69,2026-10-20 09:00,11:00,47
+Jan-Erik Steen,Norway,Class AAA,67,INC,Did not finish yard 68,2026-10-20 08:00,10:00,42
+Macee Latimer,New Zealand,Class AAA,67,INC,Did not finish yard 68,2026-10-20 08:00,21:00,55
+Matthias Pelgrims,Belgium,Super Six,67,OVER,Over the hour on yard 68,2026-10-20 08:00,10:00,85
+Shuji Ikeda,Japan,Super Six,66,INC,Did not finish yard 67,2026-10-20 07:00,16:00,72
+Luis Vesely,Germany,Class AAA,65,INC,Did not finish yard 66,2026-10-20 06:00,08:00,49
+Milan Chick,New Zealand,Class AAA,65,OVER,Over the hour on yard 66,2026-10-20 06:00,19:00,43
+Benoit Labreche,Canada,Class AAA,64,INC,Did not finish yard 65,2026-10-20 05:00,22:00,42
+Mark Nendick,Canada,Class AAA,64,INC,Did not finish yard 65,2026-10-20 05:00,22:00,50
+Scott Cameron,Australia,Super Six,64,INC,Did not finish yard 65,2026-10-20 05:00,16:00,75
+Xuane Nguyen Tri Tuong,France,Super Six,64,INC,Did not finish yard 65,2026-10-20 05:00,07:00,66
+Mataigne Damien,Belgium,Super Six,64,RTC,Did not start yard 65,2026-10-20 04:00,06:00,62
+Christophe Rouat,France,Super Six,63,INC,Did not finish yard 64,2026-10-20 04:00,06:00,86
+Gudmundur Luther Hallgrimsson,Iceland,Class AAA,63,INC,Did not finish yard 64,2026-10-20 04:00,04:00,43
+Colin Moulden,Australia,Super Six,62,INC,Did not finish yard 63,2026-10-20 03:00,14:00,50
+Gerben Oevermans,Netherlands,Class AAA,62,INC,Did not finish yard 63,2026-10-20 03:00,05:00,50
+"Mayhew, Sam",United Kingdom,Class AAA,62,INC,Did not finish yard 63,2026-10-20 03:00,04:00,64
+Ryan Quinlan,Canada,Class AAA,62,INC,Did not finish yard 63,2026-10-20 03:00,20:00,41
+Sárosi Gyula,Hungary,Class AAA,62,INC,Did not finish yard 63,2026-10-20 03:00,05:00,54
+Vitaliy Pushkarev,AIN,Super Six,62,INC,Did not finish yard 63,2026-10-20 03:00,06:00,27
+Jacob Hamburg,Netherlands,Class AAA,61,INC,Did not finish yard 62,2026-10-20 02:00,04:00,41
+Jarosław Gil,Poland,Class AAA,61,INC,Did not finish yard 62,2026-10-20 02:00,04:00,54
+Jason Rantall,Australia,Super Six,61,RTC,Did not start yard 62,2026-10-20 01:00,12:00,67
+Valentin Radu,Romania,Class AA,61,RTC,Did not start yard 62,2026-10-20 01:00,04:00,27
+Andy Wilson,United Kingdom,Class AAA,60,OVER,Over the hour on yard 61,2026-10-20 01:00,02:00,57
+Gil Pochet,Belgium,Super Six,60,INC,Did not finish yard 61,2026-10-20 01:00,03:00,28
+Lieven Pandelaers,Belgium,Super Six,60,OVER,Over the hour on yard 61,2026-10-20 01:00,03:00,65
+Minoru Tanaka,Japan,Super Six,60,INC,Did not finish yard 61,2026-10-20 01:00,10:00,81
+Pierre Aubery,France,Super Six,60,INC,Did not finish yard 61,2026-10-20 01:00,03:00,67
+Yvan De-Graef,Belgium,Super Six,60,OVER,Over the hour on yard 61,2026-10-20 01:00,03:00,35
+Thierry Grajdura,France,Super Six,60,RTC,Did not start yard 61,2026-10-20 00:00,02:00,68
+Kenneth Risom,Denmark,Class AAA,59,INC,Did not finish yard 60,2026-10-20 00:00,02:00,34
+Michael Zaruba,AIN,Super Six,59,INC,Did not finish yard 60,2026-10-20 00:00,03:00,94
+Mads Hansen,Denmark,Class AAA,58,INC,Did not finish yard 59,2026-10-19 23:00,01:00,39
+Vandamme Brecht,Belgium,Super Six,58,INC,Did not finish yard 59,2026-10-19 23:00,01:00,98
+Eivind Svellingen,Norway,Class AAA,58,RTC,Did not start yard 59,2026-10-19 22:00,00:00,66
+Alexey Belousov,AIN,Super Six,57,INC,Did not finish yard 58,2026-10-19 22:00,01:00,86
+Borje Cato Moen,Norway,Class AAA,57,INC,Did not finish yard 58,2026-10-19 22:00,00:00,48
+Hendrik Boury,Germany,Class AAA,57,OVER,Over the hour on yard 58,2026-10-19 22:00,00:00,100
+Mateusz Bucholc,Poland,Class AAA,57,OVER,Over the hour on yard 58,2026-10-19 22:00,00:00,55
+Niklas Drakfors,Sweden,Class AAA,57,INC,Did not finish yard 58,2026-10-19 22:00,00:00,53
+Hiroto Komatsu,Japan,Super Six,57,RTC,Did not start yard 58,2026-10-19 21:00,06:00,75
+Tomasz Cyganski,Poland,Class AAA,57,RTC,Did not start yard 58,2026-10-19 21:00,23:00,72
+George Jones,United Kingdom,Class AAA,56,INC,Did not finish yard 57,2026-10-19 21:00,22:00,60
+Scott Snell,United States of America,Super Six,56,RTC,Did not start yard 57,2026-10-19 20:00,15:00,88
+Akihisa Koike,Japan,Super Six,55,OVER,Over the hour on yard 56,2026-10-19 20:00,05:00,68
+Dmitry Sheremet,AIN,Super Six,55,INC,Did not finish yard 56,2026-10-19 20:00,23:00,81
+Pawel Pszczolkowski,Poland,Class AAA,55,INC,Did not finish yard 56,2026-10-19 20:00,22:00,67
+yukinori yoshida,Japan,Super Six,55,INC,Did not finish yard 56,2026-10-19 20:00,05:00,71
+"Matteazzi, Marco",Italy,Class AAA,54,INC,Did not finish yard 55,2026-10-19 19:00,21:00,38
+Alun Rose,United Kingdom,Class AAA,53,INC,Did not finish yard 54,2026-10-19 18:00,19:00,25
+Christophe Dagorette,France,Super Six,53,INC,Did not finish yard 54,2026-10-19 18:00,20:00,63
+Simon Mclean,New Zealand,Class AAA,53,INC,Did not finish yard 54,2026-10-19 18:00,07:00,90
+Toivanen Mattias,Sweden,Class AAA,53,INC,Did not finish yard 54,2026-10-19 18:00,20:00,34
+Yusuke Takahashi,Japan,Super Six,53,INC,Did not finish yard 54,2026-10-19 18:00,03:00,68
+Takeshi Sakuraba,Japan,Super Six,52,INC,Did not finish yard 53,2026-10-19 17:00,02:00,65
+Vadim Sharkov,AIN,Super Six,52,OVER,Over the hour on yard 53,2026-10-19 17:00,20:00,85
+Adrian Mirtl,Austria,Class AAA,51,INC,Did not finish yard 52,2026-10-19 16:00,18:00,41
+David Mello de Almeida,Brazil,Class AAA,51,INC,Did not finish yard 52,2026-10-19 16:00,13:00,37
+Jeremy Pelvin,New Zealand,Class AAA,51,INC,Did not finish yard 52,2026-10-19 16:00,05:00,65
+Pekka Aalto,Finland,Class AA,51,INC,Did not finish yard 52,2026-10-19 16:00,19:00,37
+Phil Marshall,United Kingdom,Class AAA,51,INC,Did not finish yard 52,2026-10-19 16:00,17:00,46
+Rafael Freitas Soares,Brazil,Class AAA,51,INC,Did not finish yard 52,2026-10-19 16:00,13:00,54
+Romain Sophys,France,Super Six,51,INC,Did not finish yard 52,2026-10-19 16:00,18:00,67
+Ryo Akamatsu,Japan,Super Six,51,OVER,Over the hour on yard 52,2026-10-19 16:00,01:00,68
+Stephanie Rosebaugh,United States of America,Super Six,51,OVER,Over the hour on yard 52,2026-10-19 16:00,11:00,67
+Kirill Bykov,AIN,Super Six,51,RTC,Did not start yard 52,2026-10-19 15:00,18:00,66
+Sandra Auger,Canada,Class AAA,51,RTC,Did not start yard 52,2026-10-19 15:00,08:00,39
+Alex Cravcenco,Sweden,Class AAA,50,INC,Did not finish yard 51,2026-10-19 15:00,17:00,33
+David Strodel,Sweden,Class AAA,50,INC,Did not finish yard 51,2026-10-19 15:00,17:00,36
+Jens Christian Mortensen,Denmark,Class AAA,50,INC,Did not finish yard 51,2026-10-19 15:00,17:00,40
+Kevin Sneyders,Belgium,Super Six,50,OVER,Over the hour on yard 51,2026-10-19 15:00,17:00,79
+Mazharul Haque,Sweden,Class AAA,50,INC,Did not finish yard 51,2026-10-19 15:00,17:00,37
+Szilard Fodor,Hungary,Class AAA,50,OVER,Over the hour on yard 51,2026-10-19 15:00,17:00,59
+Klemens Huemer,Austria,Class AAA,50,RTC,Did not start yard 51,2026-10-19 14:00,16:00,37
+Luis Agustin Casajus,Argentina,Class AA,50,RTC,Did not start yard 51,2026-10-19 14:00,11:00,45
+Morten Klingenberg,Denmark,Class AAA,50,RTC,Did not start yard 51,2026-10-19 14:00,16:00,36
+Nikolaj Olsen,Denmark,Class AAA,50,RTC,Did not start yard 51,2026-10-19 14:00,16:00,36
+Jennifer Russo,United States of America,Super Six,49,OVER,Over the hour on yard 50,2026-10-19 14:00,09:00,76
+Angelika Huemer-Toff,Austria,Class AAA,49,RTC,Did not start yard 50,2026-10-19 13:00,15:00,37
+Albert Romppanen,Finland,Class AA,48,INC,Did not finish yard 49,2026-10-19 13:00,16:00,40
+Alex Giovannetti,Italy,Class AAA,48,INC,Did not finish yard 49,2026-10-19 13:00,15:00,35
+Alexander Stummvoll,Austria,Class AAA,48,INC,Did not finish yard 49,2026-10-19 13:00,15:00,38
+Andrea Amato,Italy,Class AAA,48,INC,Did not finish yard 49,2026-10-19 13:00,15:00,36
+Austin Sedgwick,Canada,Class AAA,48,INC,Did not finish yard 49,2026-10-19 13:00,06:00,54
+Bernhard Herzog,Austria,Class AAA,48,INC,Did not finish yard 49,2026-10-19 13:00,15:00,34
+Julia Chamberlain,New Zealand,Class AAA,48,INC,Did not finish yard 49,2026-10-19 13:00,02:00,51
+Kathrin Polke,Austria,Class AAA,48,INC,Did not finish yard 49,2026-10-19 13:00,15:00,40
+Ramunas Klimavicius,Lithuania,Class AA,48,INC,Did not finish yard 49,2026-10-19 13:00,16:00,30
+Sannaa Höglind,Sweden,Class AAA,48,INC,Did not finish yard 49,2026-10-19 13:00,15:00,36
+Adriano Furtado,Portugal,Class AAA,48,RTC,Did not start yard 49,2026-10-19 12:00,13:00,37
+Cano Conde Pablo Jordan,Mexico,Class AAA,48,RTC,Did not start yard 49,2026-10-19 12:00,05:00,42
+Odilon de Jesus Leandro,Brazil,Class AAA,48,RTC,Did not start yard 49,2026-10-19 12:00,09:00,41
+Salim Akdaş,Turkey,Class AA,48,RTC,Did not start yard 49,2026-10-19 12:00,15:00,24
+Dudu Dano,Israel,Class AA,47,INC,Did not finish yard 48,2026-10-19 12:00,15:00,40
+John Marvin Buizon,Philippines,Class AA,47,INC,Did not finish yard 48,2026-10-19 12:00,20:00,38
+Jose Xavier Dando,Philippines,Class AA,47,OVER,Over the hour on yard 48,2026-10-19 12:00,20:00,30
+Alex Sweet,United Kingdom,Class AAA,46,INC,Did not finish yard 47,2026-10-19 11:00,12:00,44
+Jörn Schlag,Germany,Class AAA,46,INC,Did not finish yard 47,2026-10-19 11:00,13:00,30
+Omar Zahri,Morocco,Class AA,46,INC,Did not finish yard 47,2026-10-19 11:00,12:00,34
+Adelina García González,Mexico,Class AAA,46,RTC,Did not start yard 47,2026-10-19 10:00,03:00,50
+Keller Sándor,Hungary,Class AAA,46,RTC,Did not start yard 47,2026-10-19 10:00,12:00,45
+Engin Özdemir,Turkey,Class AA,45,INC,Did not finish yard 46,2026-10-19 10:00,13:00,28
+Evgeniy Odnorog,AIN,Super Six,45,INC,Did not finish yard 46,2026-10-19 10:00,13:00,58
+Jelle Tielemans,Belgium,Super Six,45,OVER,Over the hour on yard 46,2026-10-19 10:00,12:00,68
+Jose Goncalves,Portugal,Class AAA,45,INC,Did not finish yard 46,2026-10-19 10:00,11:00,39
+Magnus Högfeldt,Sweden,Class AAA,45,INC,Did not finish yard 46,2026-10-19 10:00,12:00,42
+Osmani Rachid,Morocco,Class AA,45,INC,Did not finish yard 46,2026-10-19 10:00,11:00,21
+Rob Mallett,United Kingdom,Class AAA,45,INC,Did not finish yard 46,2026-10-19 10:00,11:00,59
+Vadim Kniazev,AIN,Super Six,45,INC,Did not finish yard 46,2026-10-19 10:00,13:00,70
+Viktoria Brown,Canada,Class AAA,45,INC,Did not finish yard 46,2026-10-19 10:00,03:00,47
+Arild Moen,Norway,Class AAA,45,RTC,Did not start yard 46,2026-10-19 09:00,11:00,42
+Gurhan Akdag,Turkey,Class AA,45,RTC,Did not start yard 46,2026-10-19 09:00,12:00,26
+Sergio Gustavo Ruiz,Argentina,Class AA,45,RTC,Did not start yard 46,2026-10-19 09:00,06:00,35
+Shine Bar,Israel,Class AA,45,RTC,Did not start yard 46,2026-10-19 09:00,12:00,38
+François Decelles,Canada,Class AAA,44,INC,Did not finish yard 45,2026-10-19 09:00,02:00,50
+Keith Harder,Canada,Class AAA,44,INC,Did not finish yard 45,2026-10-19 09:00,02:00,42
+Scott Martin,United States of America,Super Six,44,INC,Did not finish yard 45,2026-10-19 09:00,04:00,78
+Kieran Philip,New Zealand,Class AAA,44,RTC,Did not start yard 45,2026-10-19 08:00,21:00,56
+Sunil Sharma,India,Class AA,44,RTC,Did not start yard 45,2026-10-19 08:00,13:30,21
+Jonathan Lowe,Sweden,Class AAA,43,INC,Did not finish yard 44,2026-10-19 08:00,10:00,36
+Tom Turtle,New Zealand,Class AAA,43,INC,Did not finish yard 44,2026-10-19 08:00,21:00,45
+Andrici Sorin,Romania,Class AA,43,RTC,Did not start yard 44,2026-10-19 07:00,10:00,33
+Krzysztof Kowalski,Poland,Class AAA,43,RTC,Did not start yard 44,2026-10-19 07:00,09:00,52
+Nicolás Mauro Pereyra,Argentina,Class AA,43,RTC,Did not start yard 44,2026-10-19 07:00,04:00,36
+Anastasios Leonidis,Greece,Class AA,42,INC,Did not finish yard 43,2026-10-19 07:00,10:00,33
+Mihaly Blasko,Hungary,Class AAA,42,INC,Did not finish yard 43,2026-10-19 07:00,09:00,41
+Virág Pál,Hungary,Class AAA,42,OVER,Over the hour on yard 43,2026-10-19 07:00,09:00,38
+Willem De Troyer,Belgium,Super Six,42,OVER,Over the hour on yard 43,2026-10-19 07:00,09:00,62
+Gabriel Da Silva,Argentina,Class AA,42,RTC,Did not start yard 43,2026-10-19 06:00,03:00,33
+Marc Schneider,Switzerland,Class AAA,42,RTC,Did not start yard 43,2026-10-19 06:00,08:00,40
+Mauricio Juarez,Guatemala,Class A,42,RTC,Did not start yard 43,2026-10-19 06:00,00:00,33
+Mihails Kohanovics,Latvia,Class AA,42,RTC,Did not start yard 43,2026-10-19 06:00,09:00,29
+Nauriene Brasiliano Melo Nunes,Brazil,Class AAA,42,RTC,Did not start yard 43,2026-10-19 06:00,03:00,40
+Ron Wireman,United States of America,Super Six,42,RTC,Did not start yard 43,2026-10-19 06:00,01:00,74
+Sebastian Sikora,Poland,Class AAA,42,RTC,Did not start yard 43,2026-10-19 06:00,08:00,67
+Andrej Nastran,Slovenia,Class AA,41,INC,Did not finish yard 42,2026-10-19 06:00,08:00,34
+Andrew Miles,United Kingdom,Class AAA,41,OVER,Over the hour on yard 42,2026-10-19 06:00,07:00,58
+Andrzej Pawlak,Poland,Class AAA,41,INC,Did not finish yard 42,2026-10-19 06:00,08:00,55
+Emil Lilja,Sweden,Class AAA,41,INC,Did not finish yard 42,2026-10-19 06:00,08:00,55
+Mark Hessels,Netherlands,Class AAA,41,INC,Did not finish yard 42,2026-10-19 06:00,08:00,40
+Gurisatti Gábor,Hungary,Class AAA,41,RTC,Did not start yard 42,2026-10-19 05:00,07:00,54
+Joakim Melby Olsen,Norway,Class AAA,41,RTC,Did not start yard 42,2026-10-19 05:00,07:00,44
+Julio Orlando Becerril Garcia,Mexico,Class AAA,41,RTC,Did not start yard 42,2026-10-19 05:00,22:00,41
+Mariano Susano,Mexico,Class AAA,41,RTC,Did not start yard 42,2026-10-19 05:00,22:00,41
+Maurice Kram,Netherlands,Class AAA,41,RTC,Did not start yard 42,2026-10-19 05:00,07:00,40
+Mickael Reis,Portugal,Class AAA,41,RTC,Did not start yard 42,2026-10-19 05:00,06:00,39
+Adam Komorowski,Iceland,Class AAA,40,INC,Did not finish yard 41,2026-10-19 05:00,05:00,34
+Adrian Groeschner,Germany,Class AAA,40,INC,Did not finish yard 41,2026-10-19 05:00,07:00,53
+Anton Johansson,Sweden,Class AAA,40,INC,Did not finish yard 41,2026-10-19 05:00,07:00,33
+Bernhard Scholing,Netherlands,Class AAA,40,INC,Did not finish yard 41,2026-10-19 05:00,07:00,45
+Christopher Stobbs,South Africa,Class AA,40,INC,Did not finish yard 41,2026-10-19 05:00,07:00,31
+Eric Deshaies,Canada,Class AAA,40,INC,Did not finish yard 41,2026-10-19 05:00,22:00,40
+Jonathan Ash,Australia,Super Six,40,OVER,Over the hour on yard 41,2026-10-19 05:00,16:00,100
+Pavel Seidl,Czechia,Class AA,40,INC,Did not finish yard 41,2026-10-19 05:00,07:00,30
+Daniel Alejandro Marín Osorio,Colombia,Class AA,40,RTC,Did not start yard 41,2026-10-19 04:00,23:00,31
+Elsie Cargniel Bergamasco,Italy,Class AAA,40,RTC,Did not start yard 41,2026-10-19 04:00,06:00,40
+Kelinton Sic,Guatemala,Class A,40,RTC,Did not start yard 41,2026-10-19 04:00,22:00,25
+Martinkevič Edgar,Lithuania,Class AA,40,RTC,Did not start yard 41,2026-10-19 04:00,07:00,32
+Matej Nidorfer,Slovenia,Class AA,40,RTC,Did not start yard 41,2026-10-19 04:00,06:00,33
+Mikk Rooden,Estonia,Class AA,40,RTC,Did not start yard 41,2026-10-19 04:00,07:00,35
+Valdis Nilovs,Latvia,Class AA,40,RTC,Did not start yard 41,2026-10-19 04:00,07:00,30
+Andrei Chernyakov,AIN,Super Six,39,INC,Did not finish yard 40,2026-10-19 04:00,07:00,49
+Carlos Hernandez,Venezuela,Class AA,39,INC,Did not finish yard 40,2026-10-19 04:00,00:00,25
+Francisco Gomes,Portugal,Class AAA,39,INC,Did not finish yard 40,2026-10-19 04:00,05:00,38
+Julián Champi Llajsa,Bolivia,Class A,39,OVER,Over the hour on yard 40,2026-10-19 04:00,00:00,28
+Marius Seith,Germany,Class AAA,39,INC,Did not finish yard 40,2026-10-19 04:00,06:00,49
+Michaël Pinon,France,Super Six,39,INC,Did not finish yard 40,2026-10-19 04:00,06:00,58
+Nick Leeuwenhoek,Netherlands,Class AAA,39,INC,Did not finish yard 40,2026-10-19 04:00,06:00,54
+Philip Mete,Germany,Class AAA,39,INC,Did not finish yard 40,2026-10-19 04:00,06:00,52
+Viktor Mynza,AIN,Super Six,39,INC,Did not finish yard 40,2026-10-19 04:00,07:00,83
+Carmona Marcelo,Mexico,Class AAA,39,RTC,Did not start yard 40,2026-10-19 03:00,20:00,46
+Ignacio Castro Valenzuela,Mexico,Class AAA,39,RTC,Did not start yard 40,2026-10-19 03:00,20:00,54
+Burton Mudogo,Kenya,Class A,38,OVER,Over the hour on yard 39,2026-10-19 03:00,06:00,33
+Győrffy András,Hungary,Class AAA,38,INC,Did not finish yard 39,2026-10-19 03:00,05:00,37
+Jane McAlpine,New Zealand,Class AAA,38,INC,Did not finish yard 39,2026-10-19 03:00,16:00,53
+Jannik Giesen,Germany,Class AAA,38,INC,Did not finish yard 39,2026-10-19 03:00,05:00,53
+Knut Jensvold,Norway,Class AAA,38,INC,Did not finish yard 39,2026-10-19 03:00,05:00,43
+Matej Rada,Czechia,Class AA,38,INC,Did not finish yard 39,2026-10-19 03:00,05:00,28
+Mattias Edlund,Sweden,Class AAA,38,OVER,Over the hour on yard 39,2026-10-19 03:00,05:00,46
+Sergio Moreno,Colombia,Class AA,38,INC,Did not finish yard 39,2026-10-19 03:00,22:00,34
+Tiburcio Aguilar,Bolivia,Class A,38,INC,Did not finish yard 39,2026-10-19 03:00,23:00,37
+Válent Sándor,Hungary,Class AAA,38,INC,Did not finish yard 39,2026-10-19 03:00,05:00,44
+Ana Pereira,Portugal,Class AAA,38,RTC,Did not start yard 39,2026-10-19 02:00,03:00,37
+Constantin Nicolescu,Romania,Class AA,38,RTC,Did not start yard 39,2026-10-19 02:00,05:00,29
+Darío Arauz,Argentina,Class AA,38,RTC,Did not start yard 39,2026-10-19 02:00,23:00,44
+Ernestas Vedeikis,Lithuania,Class AA,38,RTC,Did not start yard 39,2026-10-19 02:00,05:00,37
+Giuseppe Matteucci,Italy,Class AAA,38,RTC,Did not start yard 39,2026-10-19 02:00,04:00,37
+Inara Jerina,Latvia,Class AA,38,RTC,Did not start yard 39,2026-10-19 02:00,05:00,36
+Onno Overes,Netherlands,Class AAA,38,RTC,Did not start yard 39,2026-10-19 02:00,04:00,36
+Patrick Gallagher,Ireland,Class AA,38,RTC,Did not start yard 39,2026-10-19 02:00,03:00,37
+Richard Sosa,Uruguay,Class A,38,RTC,Did not start yard 39,2026-10-19 02:00,23:00,11
+Stefanos Daskalopoulos,Greece,Class AA,38,RTC,Did not start yard 39,2026-10-19 02:00,05:00,31
+Vito Intini,Italy,Class AAA,38,RTC,Did not start yard 39,2026-10-19 02:00,04:00,54
+Aleksander Kowalik,Poland,Class AAA,37,INC,Did not finish yard 38,2026-10-19 02:00,04:00,56
+Angel Gonzáles,Venezuela,Class AA,37,INC,Did not finish yard 38,2026-10-19 02:00,22:00,33
+Eva-Maria Putz,Austria,Class AAA,37,INC,Did not finish yard 38,2026-10-19 02:00,04:00,32
+Rasmus Kristensen,Denmark,Class AAA,37,INC,Did not finish yard 38,2026-10-19 02:00,04:00,35
+Sandra Gasser,Austria,Class AAA,37,INC,Did not finish yard 38,2026-10-19 02:00,04:00,41
+Sergejs Malins,Latvia,Class AA,37,OVER,Over the hour on yard 38,2026-10-19 02:00,05:00,27
+William Dias Touranca Ribeiro,Brazil,Class AAA,37,INC,Did not finish yard 38,2026-10-19 02:00,23:00,53
+Armands Arins,Latvia,Class AA,37,RTC,Did not start yard 38,2026-10-19 01:00,04:00,28
+Fernando Antonio Egaña Acevedo,Chile,Class A,37,RTC,Did not start yard 38,2026-10-19 01:00,22:00,18
+Ievgen Nesterets,Ukraine,Class A,37,RTC,Did not start yard 38,2026-10-19 01:00,03:00,63
+Soma Jagan Mohan Reddy,India,Class AA,37,RTC,Did not start yard 38,2026-10-19 01:00,06:30,30
+Fabio Tiani,Austria,Class AAA,36,INC,Did not finish yard 37,2026-10-19 01:00,03:00,37
+Giancarlo Racca,Italy,Class AAA,36,INC,Did not finish yard 37,2026-10-19 01:00,03:00,35
+Joey Feery,Ireland,Class AA,36,INC,Did not finish yard 37,2026-10-19 01:00,02:00,36
+Kanter Eefting,Netherlands,Class AAA,36,OVER,Over the hour on yard 37,2026-10-19 01:00,03:00,54
+lloyd Sithole,South Africa,Class AA,36,INC,Did not finish yard 37,2026-10-19 01:00,03:00,25
+Milda Grušauskaitė,Lithuania,Class AA,36,INC,Did not finish yard 37,2026-10-19 01:00,04:00,30
+Nagykéri György,Hungary,Class AAA,36,OVER,Over the hour on yard 37,2026-10-19 01:00,03:00,41
+Patrik Hrotek,Slovakia,Class AA,36,INC,Did not finish yard 37,2026-10-19 01:00,03:00,98
+Peter Geszti,Hungary,Class AAA,36,OVER,Over the hour on yard 37,2026-10-19 01:00,03:00,54
+Stas Khalepski,Israel,Class AA,36,INC,Did not finish yard 37,2026-10-19 01:00,04:00,0
+Stefán Beáta,Hungary,Class AAA,36,INC,Did not finish yard 37,2026-10-19 01:00,03:00,35
+Thorleifur Thorleifsson,Iceland,Class AAA,36,INC,Did not finish yard 37,2026-10-19 01:00,01:00,62
+Tomas Puida,Lithuania,Class AA,36,INC,Did not finish yard 37,2026-10-19 01:00,04:00,42
+Adriaan Pandelaers,Netherlands,Class AAA,36,RTC,Did not start yard 37,2026-10-19 00:00,02:00,39
+Ana Clara Ferrere,Argentina,Class AA,36,RTC,Did not start yard 37,2026-10-19 00:00,21:00,33
+Bogdan Stefanescu,Romania,Class AA,36,RTC,Did not start yard 37,2026-10-19 00:00,03:00,33
+Filep Ákos,Hungary,Class AAA,36,RTC,Did not start yard 37,2026-10-19 00:00,02:00,50
+Janne Männikkö,Finland,Class AA,36,RTC,Did not start yard 37,2026-10-19 00:00,03:00,33
+Jozef Gomola,Slovakia,Class AA,36,RTC,Did not start yard 37,2026-10-19 00:00,02:00,31
+Peter Johnston,Ireland,Class AA,36,RTC,Did not start yard 37,2026-10-19 00:00,01:00,42
+Reza Romero Isai Misael,Mexico,Class AAA,36,RTC,Did not start yard 37,2026-10-19 00:00,17:00,47
+Tomas Vondracek,Czechia,Class AA,36,RTC,Did not start yard 37,2026-10-19 00:00,02:00,30
+Velutis Vaidas,Lithuania,Class AA,36,RTC,Did not start yard 37,2026-10-19 00:00,03:00,30
+alessandro Gomiero,Italy,Class AAA,35,INC,Did not finish yard 36,2026-10-19 00:00,02:00,40
+Hekla Hannesdottir,Iceland,Class AAA,35,INC,Did not finish yard 36,2026-10-19 00:00,00:00,33
+John Bayne,New Zealand,Class AAA,35,INC,Did not finish yard 36,2026-10-19 00:00,13:00,72
+John Miller,South Africa,Class AA,35,INC,Did not finish yard 36,2026-10-19 00:00,02:00,42
+Lonan O Farrell,Ireland,Class AA,35,INC,Did not finish yard 36,2026-10-19 00:00,01:00,35
+Norman Mascher-Aspensjoe,Germany,Class AAA,35,INC,Did not finish yard 36,2026-10-19 00:00,02:00,80
+Roberta Meksraityte,Lithuania,Class AA,35,INC,Did not finish yard 36,2026-10-19 00:00,03:00,30
+Ruben Nuredini,Romania,Class AA,35,INC,Did not finish yard 36,2026-10-19 00:00,03:00,28
+Stephen Bwire,Kenya,Class A,35,OVER,Over the hour on yard 36,2026-10-19 00:00,03:00,24
+Steven Vegter,Netherlands,Class AAA,35,INC,Did not finish yard 36,2026-10-19 00:00,02:00,41
+Adele Al Khalil,Côte d'Ivoire,Class A,35,RTC,Did not start yard 36,2026-10-18 23:00,23:00,51
+Aleksejs Bute,Latvia,Class AA,35,RTC,Did not start yard 36,2026-10-18 23:00,02:00,38
+Aleś Sedlak,Czechia,Class AA,35,RTC,Did not start yard 36,2026-10-18 23:00,01:00,30
+Cesar Serna,Colombia,Class AA,35,RTC,Did not start yard 36,2026-10-18 23:00,18:00,33
+David Juarez,Guatemala,Class A,35,RTC,Did not start yard 36,2026-10-18 23:00,17:00,25
+Farouk Azib,Algeria,Class A,35,RTC,Did not start yard 36,2026-10-18 23:00,00:00,25
+Federico Molina,Uruguay,Class A,35,RTC,Did not start yard 36,2026-10-18 23:00,20:00,28
+Gabriel Ricardo Carrizo,Argentina,Class AA,35,RTC,Did not start yard 36,2026-10-18 23:00,20:00,34
+Jhon Querubin,Colombia,Class AA,35,RTC,Did not start yard 36,2026-10-18 23:00,18:00,26
+Juris Riekstins,Latvia,Class AA,35,RTC,Did not start yard 36,2026-10-18 23:00,02:00,31
+Klara Mottlova,Czechia,Class AA,35,RTC,Did not start yard 36,2026-10-18 23:00,01:00,27
+Martin Bremholm,Denmark,Class AAA,35,RTC,Did not start yard 36,2026-10-18 23:00,01:00,39
+Mikhail Oshurkov,Israel,Class AA,35,RTC,Did not start yard 36,2026-10-18 23:00,02:00,39
+Nikos Sfitis,Greece,Class AA,35,RTC,Did not start yard 36,2026-10-18 23:00,02:00,34
+Richard Reingruber,Austria,Class AAA,35,RTC,Did not start yard 36,2026-10-18 23:00,01:00,18
+Robert Alejandro Zambrano,Venezuela,Class AA,35,RTC,Did not start yard 36,2026-10-18 23:00,19:00,26
+Sergio Encina,Argentina,Class AA,35,RTC,Did not start yard 36,2026-10-18 23:00,20:00,36
+Sylwester Kalucki,Iceland,Class AAA,35,RTC,Did not start yard 36,2026-10-18 23:00,23:00,40
+Tone Klevan,Norway,Class AAA,35,RTC,Did not start yard 36,2026-10-18 23:00,01:00,41
+Andrus Rüütelmaa,Estonia,Class AA,34,INC,Did not finish yard 35,2026-10-18 23:00,02:00,32
+Gelšvartas Julius,Lithuania,Class AA,34,INC,Did not finish yard 35,2026-10-18 23:00,02:00,27
+Horváth Vilmos,Hungary,Class AAA,34,OVER,Over the hour on yard 35,2026-10-18 23:00,01:00,40
+Jani Reima,Finland,Class AA,34,INC,Did not finish yard 35,2026-10-18 23:00,02:00,34
+Kurt Steinhofer,Austria,Class AAA,34,INC,Did not finish yard 35,2026-10-18 23:00,01:00,32
+Liv Compton,Norway,Class AAA,34,INC,Did not finish yard 35,2026-10-18 23:00,01:00,40
+Markus Forsström,Finland,Class AA,34,INC,Did not finish yard 35,2026-10-18 23:00,02:00,33
+Massimiliano Imperi,Italy,Class AAA,34,INC,Did not finish yard 35,2026-10-18 23:00,01:00,38
+Mona Winter,Switzerland,Class AAA,34,INC,Did not finish yard 35,2026-10-18 23:00,01:00,35
+Samuel Vidinha,Portugal,Class AAA,34,INC,Did not finish yard 35,2026-10-18 23:00,00:00,44
+"Stanic, Raphael",Austria,Class AAA,34,INC,Did not finish yard 35,2026-10-18 23:00,01:00,38
+Tomas Jacobsen,Iceland,Class AAA,34,OVER,Over the hour on yard 35,2026-10-18 23:00,23:00,38
+Vera Chekalina,AIN,Super Six,34,INC,Did not finish yard 35,2026-10-18 23:00,02:00,64
+Abner Guzman,Guatemala,Class A,34,RTC,Did not start yard 35,2026-10-18 22:00,16:00,30
+Adan Roque Dominguez Elox,Mexico,Class AAA,34,RTC,Did not start yard 35,2026-10-18 22:00,15:00,42
+Dahdah Nabyl,Algeria,Class A,34,RTC,Did not start yard 35,2026-10-18 22:00,23:00,20
+Fabio Cattelan,Italy,Class AAA,34,RTC,Did not start yard 35,2026-10-18 22:00,00:00,36
+Filipe Silva,Portugal,Class AAA,34,RTC,Did not start yard 35,2026-10-18 22:00,23:00,37
+Ivan Hrastovec,Slovenia,Class AA,34,RTC,Did not start yard 35,2026-10-18 22:00,00:00,33
+Katka Svensson,Czechia,Class AA,34,RTC,Did not start yard 35,2026-10-18 22:00,00:00,30
+Luis Guzman,Guatemala,Class A,34,RTC,Did not start yard 35,2026-10-18 22:00,16:00,32
+Mauricio Balbis,Argentina,Class AA,34,RTC,Did not start yard 35,2026-10-18 22:00,19:00,32
+Amanda Nelson,Canada,Class AAA,33,INC,Did not finish yard 34,2026-10-18 22:00,15:00,60
+Anne Crawford,Ireland,Class AA,33,INC,Did not finish yard 34,2026-10-18 22:00,23:00,32
+Antea Pellegrino,Italy,Class AAA,33,INC,Did not finish yard 34,2026-10-18 22:00,00:00,36
+Evgeniy Golubchikov,AIN,Super Six,33,INC,Did not finish yard 34,2026-10-18 22:00,01:00,58
+Fűrész Edit,Hungary,Class AAA,33,OVER,Over the hour on yard 34,2026-10-18 22:00,00:00,76
+Giuliano Zaccaria,Italy,Class AAA,33,INC,Did not finish yard 34,2026-10-18 22:00,00:00,37
+Glenn Hjortefot Jørgensen,Norway,Class AAA,33,OVER,Over the hour on yard 34,2026-10-18 22:00,00:00,36
+João Espiguinha,Portugal,Class AAA,33,INC,Did not finish yard 34,2026-10-18 22:00,23:00,30
+Liis Siigur,Estonia,Class AA,33,INC,Did not finish yard 34,2026-10-18 22:00,01:00,34
+Linus Lidström,Sweden,Class AAA,33,INC,Did not finish yard 34,2026-10-18 22:00,00:00,37
+Norbert Marczuk,Poland,Class AAA,33,INC,Did not finish yard 34,2026-10-18 22:00,00:00,51
+Peter Ondras,Slovakia,Class AA,33,INC,Did not finish yard 34,2026-10-18 22:00,00:00,31
+Rami Lehtonen,Finland,Class AA,33,INC,Did not finish yard 34,2026-10-18 22:00,01:00,25
+Salim Zaouia,Algeria,Class A,33,INC,Did not finish yard 34,2026-10-18 22:00,23:00,30
+Simon Callus,Malta,Class A,33,INC,Did not finish yard 34,2026-10-18 22:00,00:00,30
+Tiago Borges da Costa,Portugal,Class AAA,33,INC,Did not finish yard 34,2026-10-18 22:00,23:00,41
+Victor Borman,Finland,Class AA,33,INC,Did not finish yard 34,2026-10-18 22:00,01:00,32
+William Barrett,South Africa,Class AA,33,INC,Did not finish yard 34,2026-10-18 22:00,00:00,25
+Aleksei Grabtchak,Finland,Class AA,33,RTC,Did not start yard 34,2026-10-18 21:00,00:00,32
+Ghiles Khati,Algeria,Class A,33,RTC,Did not start yard 34,2026-10-18 21:00,22:00,26
+Ioannis Zacharatos,Greece,Class AA,33,RTC,Did not start yard 34,2026-10-18 21:00,00:00,28
+Luis Espino,Mexico,Class AAA,33,RTC,Did not start yard 34,2026-10-18 21:00,14:00,20
+Martin Sokol,Czechia,Class AA,33,RTC,Did not start yard 34,2026-10-18 21:00,23:00,27
+Mykhailo Maistrenko,Ukraine,Class A,33,RTC,Did not start yard 34,2026-10-18 21:00,23:00,0
+Razvan Farkas,Romania,Class AA,33,RTC,Did not start yard 34,2026-10-18 21:00,00:00,30
+Reuben Josphat Mgonga Njoroge,Kenya,Class A,33,RTC,Did not start yard 34,2026-10-18 21:00,00:00,33
+Roman Packbier,Netherlands,Class AAA,33,RTC,Did not start yard 34,2026-10-18 21:00,23:00,53
+Roman Petrikovic,Slovakia,Class AA,33,RTC,Did not start yard 34,2026-10-18 21:00,23:00,34
+Valmir Vieira Mendonça,Brazil,Class AAA,33,RTC,Did not start yard 34,2026-10-18 21:00,18:00,31
+Viktoriia Nikolaienko,Ukraine,Class A,33,RTC,Did not start yard 34,2026-10-18 21:00,23:00,33
+Yoshua Herrera Godinez,Mexico,Class AAA,33,RTC,Did not start yard 34,2026-10-18 21:00,14:00,40
+Yosif Bankov,Bulgaria,Class A,33,RTC,Did not start yard 34,2026-10-18 21:00,00:00,25
+Alvydas Batakis,Lithuania,Class AA,32,INC,Did not finish yard 33,2026-10-18 21:00,00:00,31
+Cesare Mauri,Italy,Class AAA,32,INC,Did not finish yard 33,2026-10-18 21:00,23:00,35
+Clement Akach,Kenya,Class A,32,INC,Did not finish yard 33,2026-10-18 21:00,00:00,37
+Colin Dockery,Ireland,Class AA,32,OVER,Over the hour on yard 33,2026-10-18 21:00,22:00,35
+Diarmuid O Shea,Ireland,Class AA,32,INC,Did not finish yard 33,2026-10-18 21:00,22:00,33
+Eliyahu Talker,Israel,Class AA,32,INC,Did not finish yard 33,2026-10-18 21:00,00:00,27
+Ismael Röthlisberger,Switzerland,Class AAA,32,INC,Did not finish yard 33,2026-10-18 21:00,23:00,40
+Jacques Smit,South Africa,Class AA,32,INC,Did not finish yard 33,2026-10-18 21:00,23:00,29
+Kenneth Crinnion,Ireland,Class AA,32,INC,Did not finish yard 33,2026-10-18 21:00,22:00,34
+Ran Franken,Netherlands,Class AAA,32,INC,Did not finish yard 33,2026-10-18 21:00,23:00,39
+Sebastian Kopp,Switzerland,Class AAA,32,INC,Did not finish yard 33,2026-10-18 21:00,23:00,30
+Felix Stamm,Switzerland,Class AAA,32,RTC,Did not start yard 33,2026-10-18 20:00,22:00,37
+Hector Gallardo,Chile,Class A,32,RTC,Did not start yard 33,2026-10-18 20:00,17:00,22
+Marija Trontelj,Slovenia,Class AA,32,RTC,Did not start yard 33,2026-10-18 20:00,22:00,25
+Michal Cinciala,Czechia,Class AA,32,RTC,Did not start yard 33,2026-10-18 20:00,22:00,36
+Alexander Schult,Germany,Class AAA,31,OVER,Over the hour on yard 32,2026-10-18 20:00,22:00,49
+Alick Mashowo,Zambia,Class A,31,INC,Did not finish yard 32,2026-10-18 20:00,22:00,25
+Christian Balthazar Møller,Denmark,Class AAA,31,INC,Did not finish yard 32,2026-10-18 20:00,22:00,36
+Christos Mavrikios,Greece,Class AA,31,INC,Did not finish yard 32,2026-10-18 20:00,23:00,37
+Dylan Johnson,Kenya,Class A,31,OVER,Over the hour on yard 32,2026-10-18 20:00,23:00,30
+Fabrice Puaud,France,Super Six,31,OVER,Over the hour on yard 32,2026-10-18 20:00,22:00,62
+Francois Gervaix,Switzerland,Class AAA,31,INC,Did not finish yard 32,2026-10-18 20:00,22:00,30
+Georgios Zachariadis,Greece,Class AA,31,INC,Did not finish yard 32,2026-10-18 20:00,23:00,35
+Gonzalo Rocío,Uruguay,Class A,31,INC,Did not finish yard 32,2026-10-18 20:00,17:00,28
+Hildur Gudny Karadottir,Iceland,Class AAA,31,INC,Did not finish yard 32,2026-10-18 20:00,20:00,30
+Hinke Schokker,Netherlands,Class AAA,31,INC,Did not finish yard 32,2026-10-18 20:00,22:00,48
+Jaco Ebertsohn,South Africa,Class AA,31,INC,Did not finish yard 32,2026-10-18 20:00,22:00,24
+Juan Pacheco,Venezuela,Class AA,31,INC,Did not finish yard 32,2026-10-18 20:00,16:00,34
+Oren Nehbas,Israel,Class AA,31,INC,Did not finish yard 32,2026-10-18 20:00,23:00,21
+pacevicius algis,Lithuania,Class AA,31,OVER,Over the hour on yard 32,2026-10-18 20:00,23:00,37
+Tony Halvarsson,Sweden,Class AAA,31,INC,Did not finish yard 32,2026-10-18 20:00,22:00,54
+William Lewis,Malta,Class A,31,INC,Did not finish yard 32,2026-10-18 20:00,22:00,21
+Youssef Terhmina,Morocco,Class AA,31,INC,Did not finish yard 32,2026-10-18 20:00,21:00,33
+Þórdís Jónsdóttir,Iceland,Class AAA,31,INC,Did not finish yard 32,2026-10-18 20:00,20:00,44
+Adam Rusinko,Slovakia,Class AA,31,RTC,Did not start yard 32,2026-10-18 19:00,21:00,26
+Alexsandro Pereira Alves,Brazil,Class AAA,31,RTC,Did not start yard 32,2026-10-18 19:00,16:00,42
+Attila Kepesi,Slovakia,Class AA,31,RTC,Did not start yard 32,2026-10-18 19:00,21:00,36
+Enmanuel Zambrano,Venezuela,Class AA,31,RTC,Did not start yard 32,2026-10-18 19:00,15:00,30
+Florin Simion,Romania,Class AA,31,RTC,Did not start yard 32,2026-10-18 19:00,22:00,42
+Kristaps Kanna,Latvia,Class AA,31,RTC,Did not start yard 32,2026-10-18 19:00,22:00,31
+Lucas Aragona Dominguez,Argentina,Class AA,31,RTC,Did not start yard 32,2026-10-18 19:00,16:00,30
+Mihai Bolboaca,Romania,Class AA,31,RTC,Did not start yard 32,2026-10-18 19:00,22:00,30
+Milan Told,Slovakia,Class AA,31,RTC,Did not start yard 32,2026-10-18 19:00,21:00,30
+Rok Kvas,Slovenia,Class AA,31,RTC,Did not start yard 32,2026-10-18 19:00,21:00,26
+Apostolos Salagkoudis,Greece,Class AA,30,INC,Did not finish yard 31,2026-10-18 19:00,22:00,28
+Ariel Rozenfeld,Israel,Class AA,30,INC,Did not finish yard 31,2026-10-18 19:00,22:00,31
+Elmo Soomets,Estonia,Class AA,30,OVER,Over the hour on yard 31,2026-10-18 19:00,22:00,36
+Georgios Kougioumtzis,Greece,Class AA,30,INC,Did not finish yard 31,2026-10-18 19:00,22:00,38
+Gianni Ciappara,Malta,Class A,30,INC,Did not finish yard 31,2026-10-18 19:00,21:00,28
+Gustavo Cuervo,Argentina,Class AA,30,OVER,Over the hour on yard 31,2026-10-18 19:00,16:00,32
+Ilias Gkrozos,Greece,Class AA,30,INC,Did not finish yard 31,2026-10-18 19:00,22:00,28
+José Ortega,Venezuela,Class AA,30,OVER,Over the hour on yard 31,2026-10-18 19:00,15:00,32
+Juuso Turkia,Finland,Class AA,30,INC,Did not finish yard 31,2026-10-18 19:00,22:00,35
+"Lara Natera, José Luis",Malta,Class A,30,INC,Did not finish yard 31,2026-10-18 19:00,21:00,25
+Marijan Crnkovič,Slovakia,Class AA,30,INC,Did not finish yard 31,2026-10-18 19:00,21:00,29
+Oddur Máni Malmberg,Iceland,Class AAA,30,INC,Did not finish yard 31,2026-10-18 19:00,19:00,31
+Ohad Israel,Israel,Class AA,30,INC,Did not finish yard 31,2026-10-18 19:00,22:00,22
+Oleksii Alekseienko,Ukraine,Class A,30,INC,Did not finish yard 31,2026-10-18 19:00,21:00,25
+Pablo Gallardo,Chile,Class A,30,INC,Did not finish yard 31,2026-10-18 19:00,16:00,18
+Phyll Nawanjaya,Kenya,Class A,30,INC,Did not finish yard 31,2026-10-18 19:00,22:00,27
+Tal Taran,United Kingdom,Class AAA,30,INC,Did not finish yard 31,2026-10-18 19:00,20:00,61
+Alejandro Santiago,Mexico,Class AAA,30,RTC,Did not start yard 31,2026-10-18 18:00,11:00,56
+Arturs Krumins,Latvia,Class AA,30,RTC,Did not start yard 31,2026-10-18 18:00,21:00,33
+Daniel Tellez,Paraguay,Class A,30,RTC,Did not start yard 31,2026-10-18 18:00,15:00,20
+Gerli Nikolajev,Estonia,Class AA,30,RTC,Did not start yard 31,2026-10-18 18:00,21:00,34
+Gunnar Kingo,Estonia,Class AA,30,RTC,Did not start yard 31,2026-10-18 18:00,21:00,36
+Jernej Mencinger,Slovenia,Class AA,30,RTC,Did not start yard 31,2026-10-18 18:00,20:00,24
+Joni Lepisto,Finland,Class AA,30,RTC,Did not start yard 31,2026-10-18 18:00,21:00,35
+Jose Grover Patino Patino,Bolivia,Class A,30,RTC,Did not start yard 31,2026-10-18 18:00,14:00,24
+Laura Komp,Estonia,Class AA,30,RTC,Did not start yard 31,2026-10-18 18:00,21:00,28
+Marian Pavuk,Slovakia,Class AA,30,RTC,Did not start yard 31,2026-10-18 18:00,20:00,26
+Matthias Voelkel,Germany,Class AAA,30,RTC,Did not start yard 31,2026-10-18 18:00,20:00,42
+Nelson Gutierrez,Bolivia,Class A,30,RTC,Did not start yard 31,2026-10-18 18:00,14:00,27
+Nicolas Lehmann,Switzerland,Class AAA,30,RTC,Did not start yard 31,2026-10-18 18:00,20:00,38
+Nicolas Poulin,Canada,Class AAA,30,RTC,Did not start yard 31,2026-10-18 18:00,11:00,44
+Nicu Daniel Constantin,Romania,Class AA,30,RTC,Did not start yard 31,2026-10-18 18:00,21:00,26
+Norbert Lüftenegger,Austria,Class AAA,30,RTC,Did not start yard 31,2026-10-18 18:00,20:00,38
+Ondrej Jerhot,Czechia,Class AA,30,RTC,Did not start yard 31,2026-10-18 18:00,20:00,31
+Othmane Hamidi,Algeria,Class A,30,RTC,Did not start yard 31,2026-10-18 18:00,19:00,27
+Pavel Gontsov,Israel,Class AA,30,RTC,Did not start yard 31,2026-10-18 18:00,21:00,24
+Radek Brunner,Czechia,Class AA,30,RTC,Did not start yard 31,2026-10-18 18:00,20:00,33
+Saddek Mouloua,Algeria,Class A,30,RTC,Did not start yard 31,2026-10-18 18:00,19:00,33
+Tomaz Miklavcic,Slovenia,Class AA,30,RTC,Did not start yard 31,2026-10-18 18:00,20:00,0
+Velayutham Marimuthu,India,Class AA,30,RTC,Did not start yard 31,2026-10-18 18:00,23:30,28
+Andreas Wallin,Sweden,Class AAA,29,INC,Did not finish yard 30,2026-10-18 18:00,20:00,25
+Ayan Rel Digao,Philippines,Class AA,29,INC,Did not finish yard 30,2026-10-18 18:00,02:00,26
+Cian Nugent,Ireland,Class AA,29,INC,Did not finish yard 30,2026-10-18 18:00,19:00,32
+Gaston Metselaar,Netherlands,Class AAA,29,INC,Did not finish yard 30,2026-10-18 18:00,20:00,40
+Marius Zakarauskas,Lithuania,Class AA,29,INC,Did not finish yard 30,2026-10-18 18:00,21:00,34
+Mikko Leskinen,Finland,Class AA,29,INC,Did not finish yard 30,2026-10-18 18:00,21:00,34
+Stephen Patterson,Ireland,Class AA,29,INC,Did not finish yard 30,2026-10-18 18:00,19:00,33
+Tomas Aglinskas,Lithuania,Class AA,29,INC,Did not finish yard 30,2026-10-18 18:00,21:00,43
+Walter Parra,Venezuela,Class AA,29,OVER,Over the hour on yard 30,2026-10-18 18:00,14:00,28
+Felix Hernández Juárez,Mexico,Class AAA,29,RTC,Did not start yard 30,2026-10-18 17:00,10:00,48
+Janis Grikis,Latvia,Class AA,29,RTC,Did not start yard 30,2026-10-18 17:00,20:00,28
+Ritvars Lerme,Latvia,Class AA,29,RTC,Did not start yard 30,2026-10-18 17:00,20:00,25
+Vincent McMath,Ireland,Class AA,29,RTC,Did not start yard 30,2026-10-18 17:00,18:00,34
+Ana Cristina Constantin,Romania,Class AA,28,OVER,Over the hour on yard 29,2026-10-18 17:00,20:00,28
+Andrea Pestoni,Switzerland,Class AAA,28,INC,Did not finish yard 29,2026-10-18 17:00,19:00,32
+Anthony Kerr-Taylor,New Zealand,Class AAA,28,INC,Did not finish yard 29,2026-10-18 17:00,06:00,52
+Bartosz Fudali,Poland,Class AAA,28,INC,Did not finish yard 29,2026-10-18 17:00,19:00,61
+Brahian Ramirez Gómez,Colombia,Class AA,28,INC,Did not finish yard 29,2026-10-18 17:00,12:00,24
+Carlos Javier Melgarejo,Paraguay,Class A,28,INC,Did not finish yard 29,2026-10-18 17:00,14:00,27
+Gastón Gennai,Argentina,Class AA,28,INC,Did not finish yard 29,2026-10-18 17:00,14:00,36
+Ismael Antonio Pinzon Santizo,Guatemala,Class A,28,INC,Did not finish yard 29,2026-10-18 17:00,11:00,23
+Lars Vaedeled Roed,Denmark,Class AAA,28,INC,Did not finish yard 29,2026-10-18 17:00,19:00,31
+Ronan Pierre,France,Super Six,28,INC,Did not finish yard 29,2026-10-18 17:00,19:00,80
+Tomi Tuominiemi,Finland,Class AA,28,OVER,Over the hour on yard 29,2026-10-18 17:00,20:00,35
+Wen Ya Tsai,Taipei,Class AA,28,OVER,Over the hour on yard 29,2026-10-18 17:00,01:00,37
+Etienne Louw,South Africa,Class AA,28,RTC,Did not start yard 29,2026-10-18 16:00,18:00,27
+Eyal Zamir,Israel,Class AA,28,RTC,Did not start yard 29,2026-10-18 16:00,19:00,22
+Imessaoudene Mahrez Aghiles,Algeria,Class A,28,RTC,Did not start yard 29,2026-10-18 16:00,17:00,22
+Israr Muhammad,Pakistan,Class A,28,RTC,Did not start yard 29,2026-10-18 16:00,21:00,35
+Maria Sultana,Malta,Class A,28,RTC,Did not start yard 29,2026-10-18 16:00,18:00,26
+Benjamin Rascalou,France,Super Six,27,INC,Did not finish yard 28,2026-10-18 16:00,18:00,61
+Gustavo Pereyra,Argentina,Class AA,27,INC,Did not finish yard 28,2026-10-18 16:00,13:00,31
+Harry Diaz,Venezuela,Class AA,27,INC,Did not finish yard 28,2026-10-18 16:00,12:00,32
+Javeth Alexandro Vega Chavez,Paraguay,Class A,27,INC,Did not finish yard 28,2026-10-18 16:00,13:00,16
+Jivee Tolentino,Ireland,Class AA,27,INC,Did not finish yard 28,2026-10-18 16:00,17:00,36
+Joseph Camilleri,Malta,Class A,27,INC,Did not finish yard 28,2026-10-18 16:00,18:00,22
+Kelly Ryan,Ireland,Class AA,27,INC,Did not finish yard 28,2026-10-18 16:00,17:00,31
+Kristian Binger,Denmark,Class AAA,27,INC,Did not finish yard 28,2026-10-18 16:00,18:00,37
+Luis Rojas,Venezuela,Class AA,27,INC,Did not finish yard 28,2026-10-18 16:00,12:00,28
+Mari Jaersk,Iceland,Class AAA,27,INC,Did not finish yard 28,2026-10-18 16:00,16:00,50
+Peter Jensen,Denmark,Class AAA,27,INC,Did not finish yard 28,2026-10-18 16:00,18:00,41
+Pierre Biege,Switzerland,Class AAA,27,INC,Did not finish yard 28,2026-10-18 16:00,18:00,33
+Pulkit Jain,India,Class AA,27,INC,Did not finish yard 28,2026-10-18 16:00,21:30,25
+Reigo Lehtla,Estonia,Class AA,27,INC,Did not finish yard 28,2026-10-18 16:00,19:00,38
+Rob Hamilton,South Africa,Class AA,27,INC,Did not finish yard 28,2026-10-18 16:00,18:00,38
+Stephen Machale,Ireland,Class AA,27,OVER,Over the hour on yard 28,2026-10-18 16:00,17:00,32
+Tomi Mikkola,Finland,Class AA,27,OVER,Over the hour on yard 28,2026-10-18 16:00,19:00,32
+Ville-Veikka Silvola,Finland,Class AA,27,INC,Did not finish yard 28,2026-10-18 16:00,19:00,32
+Agustina Cantero Ro,Paraguay,Class A,27,RTC,Did not start yard 28,2026-10-18 15:00,12:00,20
+Aljaz Holcman,Slovenia,Class AA,27,RTC,Did not start yard 28,2026-10-18 15:00,17:00,26
+Asaf Ayalon,Israel,Class AA,27,RTC,Did not start yard 28,2026-10-18 15:00,18:00,31
+Bojan Fiser,Slovenia,Class AA,27,RTC,Did not start yard 28,2026-10-18 15:00,17:00,30
+Daniel Schwitter,Switzerland,Class AAA,27,RTC,Did not start yard 28,2026-10-18 15:00,17:00,30
+Jörg Desteffani,Switzerland,Class AAA,27,RTC,Did not start yard 28,2026-10-18 15:00,17:00,30
+Lauren Matiz,Colombia,Class AA,27,RTC,Did not start yard 28,2026-10-18 15:00,10:00,31
+Mario Enrique Peñaloza Jara,Chile,Class A,27,RTC,Did not start yard 28,2026-10-18 15:00,12:00,26
+Matteo Tenchio,Switzerland,Class AAA,27,RTC,Did not start yard 28,2026-10-18 15:00,17:00,58
+Rihards Abolins,Latvia,Class AA,27,RTC,Did not start yard 28,2026-10-18 15:00,18:00,26
+Rudolfs Auzbikis,Latvia,Class AA,27,RTC,Did not start yard 28,2026-10-18 15:00,18:00,25
+Stanislav Frenkel,Ukraine,Class A,27,RTC,Did not start yard 28,2026-10-18 15:00,17:00,26
+Tadej Horvatic,Slovenia,Class AA,27,RTC,Did not start yard 28,2026-10-18 15:00,17:00,14
+William Grey,Chile,Class A,27,RTC,Did not start yard 28,2026-10-18 15:00,12:00,18
+Edoardo Crisostomi,Italy,Class AAA,26,INC,Did not finish yard 27,2026-10-18 15:00,17:00,37
+Faiz Anwar,Brunei,Class A,26,INC,Did not finish yard 27,2026-10-18 15:00,23:00,25
+Jhonny Alberth Porco,Bolivia,Class A,26,INC,Did not finish yard 27,2026-10-18 15:00,11:00,28
+Kim Sonntag,South Africa,Class AA,26,OVER,Over the hour on yard 27,2026-10-18 15:00,17:00,25
+Kimberly Flores,Philippines,Class AA,26,INC,Did not finish yard 27,2026-10-18 15:00,23:00,28
+Liina Kesamaa,Estonia,Class AA,26,INC,Did not finish yard 27,2026-10-18 15:00,18:00,33
+Osires Izaga Imenes Filho,Brazil,Class AAA,26,INC,Did not finish yard 27,2026-10-18 15:00,12:00,28
+Ted Monsanto,Philippines,Class AA,26,OVER,Over the hour on yard 27,2026-10-18 15:00,23:00,26
+Thuridur Thorarinsdottir,Iceland,Class AAA,26,INC,Did not finish yard 27,2026-10-18 15:00,15:00,33
+Toleikis Deividas,Lithuania,Class AA,26,INC,Did not finish yard 27,2026-10-18 15:00,18:00,26
+Vasile Cretu,Romania,Class AA,26,OVER,Over the hour on yard 27,2026-10-18 15:00,18:00,35
+Anže Česen,Slovenia,Class AA,26,RTC,Did not start yard 27,2026-10-18 14:00,16:00,25
+Clara Attard Formosa,Malta,Class A,26,RTC,Did not start yard 27,2026-10-18 14:00,16:00,24
+Dimitri Kouassi,Côte d'Ivoire,Class A,26,RTC,Did not start yard 27,2026-10-18 14:00,14:00,16
+Estuardo Rogelio Tobar Vasquez,Guatemala,Class A,26,RTC,Did not start yard 27,2026-10-18 14:00,08:00,24
+Juan Carlos Gonzalez Delgado,Ecuador,Class A,26,RTC,Did not start yard 27,2026-10-18 14:00,09:00,25
+Lorenzo Castillo,Bolivia,Class A,26,RTC,Did not start yard 27,2026-10-18 14:00,10:00,26
+Mustafa Tuksal,Turkey,Class AA,26,RTC,Did not start yard 27,2026-10-18 14:00,17:00,24
+Pancha Ram Budha,Nepal,Class A,26,RTC,Did not start yard 27,2026-10-18 14:00,19:45,19
+Rapelang Kgaje,South Africa,Class AA,26,RTC,Did not start yard 27,2026-10-18 14:00,16:00,32
+Rihards Brigis,Latvia,Class AA,26,RTC,Did not start yard 27,2026-10-18 14:00,17:00,24
+Rodrigo Alejandro Tapia Guzmán,Chile,Class A,26,RTC,Did not start yard 27,2026-10-18 14:00,11:00,20
+Umesh Kumar,India,Class AA,26,RTC,Did not start yard 27,2026-10-18 14:00,19:30,25
+莊俊凱,Taipei,Class AA,26,RTC,Did not start yard 27,2026-10-18 14:00,22:00,39
+Allan B.Gadong,Philippines,Class AA,25,INC,Did not finish yard 26,2026-10-18 14:00,22:00,26
+Christophe Yahiri,Côte d'Ivoire,Class A,25,INC,Did not finish yard 26,2026-10-18 14:00,14:00,29
+Donovan Shirley,South Africa,Class AA,25,INC,Did not finish yard 26,2026-10-18 14:00,16:00,43
+Eric de Wildt,Kenya,Class A,25,INC,Did not finish yard 26,2026-10-18 14:00,17:00,15
+Geovane Griesang,Brazil,Class AAA,25,INC,Did not finish yard 26,2026-10-18 14:00,11:00,55
+Julian Schneckenburger,Switzerland,Class AAA,25,INC,Did not finish yard 26,2026-10-18 14:00,16:00,32
+Malek Leroul,Algeria,Class A,25,INC,Did not finish yard 26,2026-10-18 14:00,15:00,33
+Paschalis Toumpis,Greece,Class AA,25,INC,Did not finish yard 26,2026-10-18 14:00,17:00,27
+Patrick Scheel Hinojosa,Kenya,Class A,25,INC,Did not finish yard 26,2026-10-18 14:00,17:00,24
+Policarpio Chambi,Bolivia,Class A,25,INC,Did not finish yard 26,2026-10-18 14:00,10:00,24
+Seven Aydos,Turkey,Class AA,25,INC,Did not finish yard 26,2026-10-18 14:00,17:00,19
+Simon Cepeda,Dominican Republic,Class A,25,INC,Did not finish yard 26,2026-10-18 14:00,10:00,15
+Vitalii Vladychenko,Ukraine,Class A,25,INC,Did not finish yard 26,2026-10-18 14:00,16:00,0
+Ankit Kumar,India,Class AA,25,RTC,Did not start yard 26,2026-10-18 13:00,18:30,35
+Eva Jacky,Kenya,Class A,25,RTC,Did not start yard 26,2026-10-18 13:00,16:00,24
+Geir Hansen,Norway,Class AAA,25,RTC,Did not start yard 26,2026-10-18 13:00,15:00,39
+Juan Calle,Colombia,Class AA,25,RTC,Did not start yard 26,2026-10-18 13:00,08:00,25
+Ofer Regev,Israel,Class AA,25,RTC,Did not start yard 26,2026-10-18 13:00,16:00,21
+Oren Nogradi,Israel,Class AA,25,RTC,Did not start yard 26,2026-10-18 13:00,16:00,21
+Ranjit Rai,Nepal,Class A,25,RTC,Did not start yard 26,2026-10-18 13:00,18:45,14
+Rosana Irene Farina,Paraguay,Class A,25,RTC,Did not start yard 26,2026-10-18 13:00,10:00,16
+Abdul Akim Haji Jalal,Brunei,Class A,24,INC,Did not finish yard 25,2026-10-18 13:00,21:00,26
+"Agca, Devin",Germany,Class AAA,24,INC,Did not finish yard 25,2026-10-18 13:00,15:00,45
+Aleksanders Dubinovicius,Lithuania,Class AA,24,OVER,Over the hour on yard 25,2026-10-18 13:00,16:00,34
+Birkan Halis,Turkey,Class AA,24,INC,Did not finish yard 25,2026-10-18 13:00,16:00,30
+Carlos Miguel Gallego Rodríguez,Spain,Class AAA,24,INC,Did not finish yard 25,2026-10-18 13:00,15:00,28
+Carmen Aguilar Girona,Spain,Class AAA,24,INC,Did not finish yard 25,2026-10-18 13:00,15:00,46
+Cesar Dominguez,Spain,Class AAA,24,INC,Did not finish yard 25,2026-10-18 13:00,15:00,34
+Diego Rodriguez,Uruguay,Class A,24,INC,Did not finish yard 25,2026-10-18 13:00,10:00,29
+Eric Priego Pastor,Spain,Class AAA,24,INC,Did not finish yard 25,2026-10-18 13:00,15:00,51
+Francisco Guzman Hernandez,Spain,Class AAA,24,INC,Did not finish yard 25,2026-10-18 13:00,15:00,45
+Ivan Husar,Slovakia,Class AA,24,OVER,Over the hour on yard 25,2026-10-18 13:00,15:00,28
+Ivan Perea Jimenez,Spain,Class AAA,24,INC,Did not finish yard 25,2026-10-18 13:00,15:00,48
+Jakub Rajnic,Slovakia,Class AA,24,OVER,Over the hour on yard 25,2026-10-18 13:00,15:00,30
+Jana Maluchova,Czechia,Class AA,24,INC,Did not finish yard 25,2026-10-18 13:00,15:00,33
+Jordi,Spain,Class AAA,24,INC,Did not finish yard 25,2026-10-18 13:00,15:00,36
+Jose Carlos Alcazar Garcia,Spain,Class AAA,24,INC,Did not finish yard 25,2026-10-18 13:00,15:00,50
+Jose Manuel Huertas Machi,Spain,Class AAA,24,INC,Did not finish yard 25,2026-10-18 13:00,15:00,49
+Jose Manuel Ruiz Verdugo,Spain,Class AAA,24,INC,Did not finish yard 25,2026-10-18 13:00,15:00,65
+Juan Diego Aguilar Bravo,Spain,Class AAA,24,INC,Did not finish yard 25,2026-10-18 13:00,15:00,51
+Kgomotso Moyo,South Africa,Class AA,24,INC,Did not finish yard 25,2026-10-18 13:00,15:00,31
+Martha Ccorahua Huallpa,Spain,Class AAA,24,INC,Did not finish yard 25,2026-10-18 13:00,15:00,45
+Marynels Morales,Venezuela,Class AA,24,INC,Did not finish yard 25,2026-10-18 13:00,09:00,27
+Mohammed Alaoui,Morocco,Class AA,24,INC,Did not finish yard 25,2026-10-18 13:00,14:00,36
+Priit Valk,Estonia,Class AA,24,INC,Did not finish yard 25,2026-10-18 13:00,16:00,33
+Raul Roberto Gomez,Spain,Class AAA,24,INC,Did not finish yard 25,2026-10-18 13:00,15:00,49
+Sergio Freitas,Portugal,Class AAA,24,INC,Did not finish yard 25,2026-10-18 13:00,14:00,36
+Sreekant Nair,India,Class AA,24,INC,Did not finish yard 25,2026-10-18 13:00,18:30,30
+Abderrahmane Ait Haddou,Morocco,Class AA,24,RTC,Did not start yard 25,2026-10-18 12:00,13:00,31
+Arnulfo Aquino,Philippines,Class AA,24,RTC,Did not start yard 25,2026-10-18 12:00,20:00,10
+Carlos Otoniel Herrera Pérez,Guatemala,Class A,24,RTC,Did not start yard 25,2026-10-18 12:00,06:00,21
+Carolyne Wanjiru,Kenya,Class A,24,RTC,Did not start yard 25,2026-10-18 12:00,15:00,10
+Chelimo Kimaiyo,Kenya,Class A,24,RTC,Did not start yard 25,2026-10-18 12:00,15:00,20
+Conrado Paulich,Guatemala,Class A,24,RTC,Did not start yard 25,2026-10-18 12:00,06:00,25
+Dennis Musche,Germany,Class AAA,24,RTC,Did not start yard 25,2026-10-18 12:00,14:00,54
+Djebrouni Zohra,Algeria,Class A,24,RTC,Did not start yard 25,2026-10-18 12:00,13:00,22
+Emilio Jose Perez Torres,Spain,Class AAA,24,RTC,Did not start yard 25,2026-10-18 12:00,14:00,50
+Francisco Diaz,Chile,Class A,24,RTC,Did not start yard 25,2026-10-18 12:00,09:00,20
+Harald Bjerke,Norway,Class AAA,24,RTC,Did not start yard 25,2026-10-18 12:00,14:00,44
+Hilary James Tambolero,Philippines,Class AA,24,RTC,Did not start yard 25,2026-10-18 12:00,20:00,29
+İlhan Mutlu,Turkey,Class AA,24,RTC,Did not start yard 25,2026-10-18 12:00,15:00,24
+Jan Carlos Nunez Garcia,Cuba,Class A,24,RTC,Did not start yard 25,2026-10-18 12:00,08:00,22
+Joseph Mumba,Zambia,Class A,24,RTC,Did not start yard 25,2026-10-18 12:00,14:00,12
+Lars Skaarup Brodsgaard,Denmark,Class AAA,24,RTC,Did not start yard 25,2026-10-18 12:00,14:00,33
+Mario Vergara,Colombia,Class AA,24,RTC,Did not start yard 25,2026-10-18 12:00,07:00,28
+Martín Alonso Mena Jiménez,Costa Rica,Class A,24,RTC,Did not start yard 25,2026-10-18 12:00,06:00,0
+Michelle Bergsma,Bermuda,Class A,24,RTC,Did not start yard 25,2026-10-18 12:00,09:00,15
+Morten Meng Nordstrøm,Denmark,Class AAA,24,RTC,Did not start yard 25,2026-10-18 12:00,14:00,26
+Mustafa Poyraz,Turkey,Class AA,24,RTC,Did not start yard 25,2026-10-18 12:00,15:00,37
+Nelson Sanabria Benítez,Paraguay,Class A,24,RTC,Did not start yard 25,2026-10-18 12:00,09:00,13
+Olivia Nascente,Uruguay,Class A,24,RTC,Did not start yard 25,2026-10-18 12:00,09:00,12
+Özgür Pekdüz,Turkey,Class AA,24,RTC,Did not start yard 25,2026-10-18 12:00,15:00,20
+Robert Constantin Zamisnicu,Romania,Class AA,24,RTC,Did not start yard 25,2026-10-18 12:00,15:00,25
+Ronel S. Fallaria,Philippines,Class AA,24,RTC,Did not start yard 25,2026-10-18 12:00,20:00,31
+Rowein Diokno,Philippines,Class AA,24,RTC,Did not start yard 25,2026-10-18 12:00,20:00,38
+Sergey,Tajikistan,Class A,24,RTC,Did not start yard 25,2026-10-18 12:00,17:00,15
+Serhii Melnychuk,Ukraine,Class A,24,RTC,Did not start yard 25,2026-10-18 12:00,14:00,0
+Tetiana Hramatikova-Bono,Ukraine,Class A,24,RTC,Did not start yard 25,2026-10-18 12:00,14:00,0
+Xing-Guo Cai,Taipei,Class AA,24,RTC,Did not start yard 25,2026-10-18 12:00,20:00,29
+Zuzana Picmanova,Czechia,Class AA,24,RTC,Did not start yard 25,2026-10-18 12:00,14:00,26
+林捷如,Taipei,Class AA,24,RTC,Did not start yard 25,2026-10-18 12:00,20:00,39
+Adam Wade,South Africa,Class AA,23,INC,Did not finish yard 24,2026-10-18 12:00,14:00,32
+Atıl Balin,Turkey,Class AA,23,OVER,Over the hour on yard 24,2026-10-18 12:00,15:00,24
+Fergus O'Brien,South Africa,Class AA,23,INC,Did not finish yard 24,2026-10-18 12:00,14:00,26
+Gregorio Feijoo,Venezuela,Class AA,23,INC,Did not finish yard 24,2026-10-18 12:00,08:00,33
+Yair Raman,Israel,Class AA,23,INC,Did not finish yard 24,2026-10-18 12:00,15:00,26
+Yeirys Soto,Dominican Republic,Class A,23,INC,Did not finish yard 24,2026-10-18 12:00,08:00,17
+Lorena Saavedra Cardona,Colombia,Class AA,23,RTC,Did not start yard 24,2026-10-18 11:00,06:00,22
+Romualdo Vanegas López,Costa Rica,Class A,23,RTC,Did not start yard 24,2026-10-18 11:00,05:00,0
+Buks Gous,Namibia,Class A,22,INC,Did not finish yard 23,2026-10-18 11:00,13:00,20
+Dionysios Kompothekras,Greece,Class AA,22,INC,Did not finish yard 23,2026-10-18 11:00,14:00,30
+Donatus Aihuki,Namibia,Class A,22,INC,Did not finish yard 23,2026-10-18 11:00,13:00,21
+Guilherme Bavaresco,Brazil,Class AAA,22,INC,Did not finish yard 23,2026-10-18 11:00,08:00,39
+Jose Manuel Gonzalez,Spain,Class AAA,22,INC,Did not finish yard 23,2026-10-18 11:00,13:00,48
+Karl Fiteni,Malta,Class A,22,INC,Did not finish yard 23,2026-10-18 11:00,13:00,22
+Laishram Singh,India,Class AA,22,OVER,Over the hour on yard 23,2026-10-18 11:00,16:30,29
+"Magro, Jeffrey",Malta,Class A,22,INC,Did not finish yard 23,2026-10-18 11:00,13:00,22
+Manoj Sundaram,India,Class AA,22,OVER,Over the hour on yard 23,2026-10-18 11:00,16:30,31
+Rodrigo Farach Aldana,Dominican Republic,Class A,22,INC,Did not finish yard 23,2026-10-18 11:00,07:00,13
+Alejandra Sahonero,Bolivia,Class A,22,RTC,Did not start yard 23,2026-10-18 10:00,06:00,18
+Celso Damián Duré González,Paraguay,Class A,22,RTC,Did not start yard 23,2026-10-18 10:00,07:00,19
+David Gallo,Guatemala,Class A,22,RTC,Did not start yard 23,2026-10-18 10:00,04:00,20
+James Quijada,Chile,Class A,22,RTC,Did not start yard 23,2026-10-18 10:00,07:00,17
+Jordin Imanol,Colombia,Class AA,22,RTC,Did not start yard 23,2026-10-18 10:00,05:00,26
+Ming-Chih Liu,Taipei,Class AA,22,RTC,Did not start yard 23,2026-10-18 10:00,18:00,29
+Moises Lopez,Venezuela,Class AA,22,RTC,Did not start yard 23,2026-10-18 10:00,06:00,31
+Salim Sekkat,Morocco,Class AA,22,RTC,Did not start yard 23,2026-10-18 10:00,11:00,30
+Sergio Odela,Uruguay,Class A,22,RTC,Did not start yard 23,2026-10-18 10:00,07:00,20
+Shun-Yuan Cheng,Taipei,Class AA,22,RTC,Did not start yard 23,2026-10-18 10:00,18:00,26
+Taavi Ilp,Estonia,Class AA,22,RTC,Did not start yard 23,2026-10-18 10:00,13:00,31
+Adriana Vilela Alves da Silva,Brazil,Class AAA,21,OVER,Over the hour on yard 22,2026-10-18 10:00,07:00,41
+Alexandre Silva,Portugal,Class AAA,21,INC,Did not finish yard 22,2026-10-18 10:00,11:00,37
+Dmytro Storozhyk,Ukraine,Class A,21,INC,Did not finish yard 22,2026-10-18 10:00,12:00,26
+Hungpin Lee,Taipei,Class AA,21,INC,Did not finish yard 22,2026-10-18 10:00,18:00,24
+Jose Hugas,Venezuela,Class AA,21,INC,Did not finish yard 22,2026-10-18 10:00,06:00,21
+Mauricio Coimbra Suárez,Bolivia,Class A,21,INC,Did not finish yard 22,2026-10-18 10:00,06:00,30
+Santiago Azaian,Uruguay,Class A,21,INC,Did not finish yard 22,2026-10-18 10:00,07:00,24
+Spyros Chrysikopoulos,Greece,Class AA,21,INC,Did not finish yard 22,2026-10-18 10:00,13:00,32
+Ashok Gurung,Nepal,Class A,21,RTC,Did not start yard 22,2026-10-18 09:00,14:45,12
+Daniel Mwansa,Zambia,Class A,21,RTC,Did not start yard 22,2026-10-18 09:00,11:00,17
+Danielle Zimny,Namibia,Class A,21,RTC,Did not start yard 22,2026-10-18 09:00,11:00,18
+Dario Ferreira,Uruguay,Class A,21,RTC,Did not start yard 22,2026-10-18 09:00,06:00,19
+Edisson Fuquene,Colombia,Class AA,21,RTC,Did not start yard 22,2026-10-18 09:00,04:00,26
+Gabriel Mutis,Chile,Class A,21,RTC,Did not start yard 22,2026-10-18 09:00,06:00,28
+Jaroslav Klizan,Slovakia,Class AA,21,RTC,Did not start yard 22,2026-10-18 09:00,11:00,32
+Liviu Timofte,Romania,Class AA,21,RTC,Did not start yard 22,2026-10-18 09:00,12:00,28
+Marietjie Steinbach,Namibia,Class A,21,RTC,Did not start yard 22,2026-10-18 09:00,11:00,15
+Pablo Leiva Araya,Costa Rica,Class A,21,RTC,Did not start yard 22,2026-10-18 09:00,03:00,0
+Robert Formosa,Malta,Class A,21,RTC,Did not start yard 22,2026-10-18 09:00,11:00,26
+Rodrigo Álvarez Flores,Bolivia,Class A,21,RTC,Did not start yard 22,2026-10-18 09:00,05:00,19
+Tomas Durta,Slovakia,Class AA,21,RTC,Did not start yard 22,2026-10-18 09:00,11:00,32
+Yehison Ramos,Colombia,Class AA,21,RTC,Did not start yard 22,2026-10-18 09:00,04:00,30
+Abdull Matalif Ibrahim,Brunei,Class A,20,INC,Did not finish yard 21,2026-10-18 09:00,17:00,15
+Adama Sidibe,Côte d'Ivoire,Class A,20,INC,Did not finish yard 21,2026-10-18 09:00,09:00,18
+Alejandro Gabriel Maluh,Argentina,Class AA,20,INC,Did not finish yard 21,2026-10-18 09:00,06:00,40
+Ankit Sharma,India,Class AA,20,INC,Did not finish yard 21,2026-10-18 09:00,14:30,32
+Carlos Ovalle,Dominican Republic,Class A,20,INC,Did not finish yard 21,2026-10-18 09:00,05:00,17
+Danie Opperman,Namibia,Class A,20,INC,Did not finish yard 21,2026-10-18 09:00,11:00,15
+Delfin Osias,Philippines,Class AA,20,INC,Did not finish yard 21,2026-10-18 09:00,17:00,20
+Diego Fernández Jiménez,Costa Rica,Class A,20,INC,Did not finish yard 21,2026-10-18 09:00,03:00,15
+Ivan Ortega,Dominican Republic,Class A,20,INC,Did not finish yard 21,2026-10-18 09:00,05:00,19
+Marcel Iglesias Llorens,Cuba,Class A,20,INC,Did not finish yard 21,2026-10-18 09:00,05:00,18
+Mark Eyton-Jones,Malaysia,Class A,20,INC,Did not finish yard 21,2026-10-18 09:00,17:00,18
+Michael Haambayi,Zambia,Class A,20,INC,Did not finish yard 21,2026-10-18 09:00,11:00,16
+Mikk Prantsen,Estonia,Class AA,20,INC,Did not finish yard 21,2026-10-18 09:00,12:00,30
+Naude Dreyer,Namibia,Class A,20,INC,Did not finish yard 21,2026-10-18 09:00,11:00,17
+Noé Salatiel Guzmán Morales,Guatemala,Class A,20,INC,Did not finish yard 21,2026-10-18 09:00,03:00,22
+Richard Reid,Namibia,Class A,20,INC,Did not finish yard 21,2026-10-18 09:00,11:00,17
+Sudipto Chowdhury,India,Class AA,20,INC,Did not finish yard 21,2026-10-18 09:00,14:30,30
+Abrahan Villanueva,Colombia,Class AA,20,RTC,Did not start yard 21,2026-10-18 08:00,03:00,29
+Ahror Kosimi,Tajikistan,Class A,20,RTC,Did not start yard 21,2026-10-18 08:00,13:00,24
+Anisia Cojucaru,Romania,Class AA,20,RTC,Did not start yard 21,2026-10-18 08:00,11:00,29
+Claudia Jumbo,Ecuador,Class A,20,RTC,Did not start yard 21,2026-10-18 08:00,03:00,15
+Jose Hurtado,Venezuela,Class AA,20,RTC,Did not start yard 21,2026-10-18 08:00,04:00,29
+Julio Ubilla,Ecuador,Class A,20,RTC,Did not start yard 21,2026-10-18 08:00,03:00,15
+Kerbouche Bilal,Algeria,Class A,20,RTC,Did not start yard 21,2026-10-18 08:00,09:00,22
+Kevin Casaru,Malta,Class A,20,RTC,Did not start yard 21,2026-10-18 08:00,10:00,24
+Maaka Sihulumi,Zambia,Class A,20,RTC,Did not start yard 21,2026-10-18 08:00,10:00,12
+Mike Kannini,Zambia,Class A,20,RTC,Did not start yard 21,2026-10-18 08:00,10:00,10
+Ondrej Velicka,Czechia,Class AA,20,RTC,Did not start yard 21,2026-10-18 08:00,10:00,48
+李昱賢,Taipei,Class AA,20,RTC,Did not start yard 21,2026-10-18 08:00,16:00,39
+李銘峰,Taipei,Class AA,20,RTC,Did not start yard 21,2026-10-18 08:00,16:00,39
+范榮墀,Taipei,Class AA,20,RTC,Did not start yard 21,2026-10-18 08:00,16:00,39
+Anton Karamatov,Bulgaria,Class A,19,INC,Did not finish yard 20,2026-10-18 08:00,11:00,15
+Elizabeth Hernández Reyes,Costa Rica,Class A,19,OVER,Over the hour on yard 20,2026-10-18 08:00,02:00,0
+Fridrik Benediktsson,Iceland,Class AAA,19,INC,Did not finish yard 20,2026-10-18 08:00,08:00,33
+Keshav Budha,Nepal,Class A,19,OVER,Over the hour on yard 20,2026-10-18 08:00,13:45,17
+Omar Mendoza de Lara,Cuba,Class A,19,INC,Did not finish yard 20,2026-10-18 08:00,04:00,16
+Oscar Ramiro Mullisaca,Bolivia,Class A,19,INC,Did not finish yard 20,2026-10-18 08:00,04:00,33
+Viktor Simeonov,Bulgaria,Class A,19,INC,Did not finish yard 20,2026-10-18 08:00,11:00,13
+Wen Ren Lee,Brunei,Class A,19,INC,Did not finish yard 20,2026-10-18 08:00,16:00,13
+Altair Ferreira Lima,Brazil,Class AAA,19,RTC,Did not start yard 20,2026-10-18 07:00,04:00,42
+Edgar Nehemias Cali,Guatemala,Class A,19,RTC,Did not start yard 20,2026-10-18 07:00,01:00,26
+Kalliopi Passa,Greece,Class AA,19,RTC,Did not start yard 20,2026-10-18 07:00,10:00,30
+Madjid Bentalha,Algeria,Class A,19,RTC,Did not start yard 20,2026-10-18 07:00,08:00,33
+Marcia Tacuri,Ecuador,Class A,19,RTC,Did not start yard 20,2026-10-18 07:00,02:00,18
+Marco Miranda,Chile,Class A,19,RTC,Did not start yard 20,2026-10-18 07:00,04:00,15
+Rajneesh Kumar,India,Class AA,19,RTC,Did not start yard 20,2026-10-18 07:00,12:30,30
+Santiago Freire,Ecuador,Class A,19,RTC,Did not start yard 20,2026-10-18 07:00,02:00,22
+Sebastian Correa,Uruguay,Class A,19,RTC,Did not start yard 20,2026-10-18 07:00,04:00,16
+Virgil Reboton,Philippines,Class AA,19,RTC,Did not start yard 20,2026-10-18 07:00,15:00,28
+Yuvany Martinez,Bolivia,Class A,19,RTC,Did not start yard 20,2026-10-18 07:00,03:00,20
+Ajay Kumar Agarwal,India,Class AA,18,INC,Did not finish yard 19,2026-10-18 07:00,12:30,27
+Aleš Frlic,Slovenia,Class AA,18,OVER,Over the hour on yard 19,2026-10-18 07:00,09:00,32
+Ashir Abbas,Pakistan,Class A,18,INC,Did not finish yard 19,2026-10-18 07:00,12:00,18
+Cristian Minaya,Dominican Republic,Class A,18,INC,Did not finish yard 19,2026-10-18 07:00,03:00,17
+Grigorios Drakos,Greece,Class AA,18,INC,Did not finish yard 19,2026-10-18 07:00,10:00,36
+Jesús González,Paraguay,Class A,18,OVER,Over the hour on yard 19,2026-10-18 07:00,04:00,17
+Joaquín Gómez Bentancourt,Uruguay,Class A,18,INC,Did not finish yard 19,2026-10-18 07:00,04:00,24
+Luis Antonio De León Encarnación,Dominican Republic,Class A,18,INC,Did not finish yard 19,2026-10-18 07:00,03:00,13
+Marcos Cantero Gimenez,Paraguay,Class A,18,OVER,Over the hour on yard 19,2026-10-18 07:00,04:00,18
+Monserrat Chavez,Paraguay,Class A,18,INC,Did not finish yard 19,2026-10-18 07:00,04:00,18
+Pawlu Zammit,Malta,Class A,18,INC,Did not finish yard 19,2026-10-18 07:00,09:00,28
+Rocío Arias García,Costa Rica,Class A,18,INC,Did not finish yard 19,2026-10-18 07:00,01:00,0
+Thiruventhiran Narayasamy,Malaysia,Class A,18,INC,Did not finish yard 19,2026-10-18 07:00,15:00,20
+Tobias Zañón,Paraguay,Class A,18,OVER,Over the hour on yard 19,2026-10-18 07:00,04:00,26
+Allouch Achraf,Morocco,Class AA,18,RTC,Did not start yard 19,2026-10-18 06:00,07:00,24
+Ankit Panwar,India,Class AA,18,RTC,Did not start yard 19,2026-10-18 06:00,11:30,37
+Bernie Smith,Zambia,Class A,18,RTC,Did not start yard 19,2026-10-18 06:00,08:00,12
+Jennifer Townsend,Brunei,Class A,18,RTC,Did not start yard 19,2026-10-18 06:00,14:00,15
+Jesús Cerdas Padilla,Costa Rica,Class A,18,RTC,Did not start yard 19,2026-10-18 06:00,00:00,0
+Kristian Kadiev,Bulgaria,Class A,18,RTC,Did not start yard 19,2026-10-18 06:00,09:00,16
+Lokendra Rai,Nepal,Class A,18,RTC,Did not start yard 19,2026-10-18 06:00,11:45,12
+Luc Devaux,Brunei,Class A,18,RTC,Did not start yard 19,2026-10-18 06:00,14:00,14
+Richard Howells,Bermuda,Class A,18,RTC,Did not start yard 19,2026-10-18 06:00,03:00,16
+Ronald Eduardo Jiménez Méndez,Costa Rica,Class A,18,RTC,Did not start yard 19,2026-10-18 06:00,00:00,0
+Rossy Cuellar Balderrama,Bolivia,Class A,18,RTC,Did not start yard 19,2026-10-18 06:00,02:00,29
+Teo Kostanjevec,Slovenia,Class AA,18,RTC,Did not start yard 19,2026-10-18 06:00,08:00,26
+Yuval Cohen,Zambia,Class A,18,RTC,Did not start yard 19,2026-10-18 06:00,08:00,16
+Anthony Navarro Ureña,Costa Rica,Class A,17,INC,Did not finish yard 18,2026-10-18 06:00,00:00,0
+Dirvan Duarte Rodriguez,Cuba,Class A,17,INC,Did not finish yard 18,2026-10-18 06:00,02:00,15
+Erich Goeieman,Namibia,Class A,17,OVER,Over the hour on yard 18,2026-10-18 06:00,08:00,25
+Jorge Enrique Meneses Bernal,Cuba,Class A,17,INC,Did not finish yard 18,2026-10-18 06:00,02:00,15
+Juan Perez,Dominican Republic,Class A,17,INC,Did not finish yard 18,2026-10-18 06:00,02:00,17
+Regis Coumenges,Côte d'Ivoire,Class A,17,OVER,Over the hour on yard 18,2026-10-18 06:00,06:00,13
+Ronaldo Tsakimp,Ecuador,Class A,17,INC,Did not finish yard 18,2026-10-18 06:00,01:00,15
+Sandra Mejía Céspedes,Costa Rica,Class A,17,INC,Did not finish yard 18,2026-10-18 06:00,00:00,0
+Thanya Barrios Benítez,Paraguay,Class A,17,INC,Did not finish yard 18,2026-10-18 06:00,03:00,15
+Dante Sornero,Philippines,Class AA,17,RTC,Did not start yard 18,2026-10-18 05:00,13:00,27
+Epiphane Dossou,Côte d'Ivoire,Class A,17,RTC,Did not start yard 18,2026-10-18 05:00,05:00,12
+Ivan Heigan,Namibia,Class A,17,RTC,Did not start yard 18,2026-10-18 05:00,07:00,13
+Jan Mel Doneza,Philippines,Class AA,17,RTC,Did not start yard 18,2026-10-18 05:00,13:00,27
+Jesse Tan Siew Chen,Malaysia,Class A,17,RTC,Did not start yard 18,2026-10-18 05:00,13:00,18
+Juan Fernandez,Uruguay,Class A,17,RTC,Did not start yard 18,2026-10-18 05:00,02:00,26
+Mariya Stancheva,Bulgaria,Class A,17,RTC,Did not start yard 18,2026-10-18 05:00,08:00,13
+Mazouz Hanane,Algeria,Class A,17,RTC,Did not start yard 18,2026-10-18 05:00,06:00,19
+Muhammad Mustafa,Pakistan,Class A,17,RTC,Did not start yard 18,2026-10-18 05:00,10:00,13
+Anum Uzair,Pakistan,Class A,16,INC,Did not finish yard 17,2026-10-18 05:00,10:00,7
+Chavely Calero Gonzalez,Cuba,Class A,16,INC,Did not finish yard 17,2026-10-18 05:00,01:00,15
+Christopher On,Brunei,Class A,16,INC,Did not finish yard 17,2026-10-18 05:00,13:00,8
+Dusan Kopecny,Czechia,Class AA,16,INC,Did not finish yard 17,2026-10-18 05:00,07:00,37
+EugeneChai JunHoe,Malaysia,Class A,16,INC,Did not finish yard 17,2026-10-18 05:00,13:00,15
+Ivan Mafla,Ecuador,Class A,16,INC,Did not finish yard 17,2026-10-18 05:00,00:00,21
+Jana van Dyk,Namibia,Class A,16,OVER,Over the hour on yard 17,2026-10-18 05:00,07:00,15
+Jose Gomez,Uruguay,Class A,16,INC,Did not finish yard 17,2026-10-18 05:00,02:00,17
+Kseniia Svyrydova,Ukraine,Class A,16,OVER,Over the hour on yard 17,2026-10-18 05:00,07:00,0
+Markus Schieder,Austria,Class AAA,16,INC,Did not finish yard 17,2026-10-18 05:00,07:00,40
+Mashood Ahmed,Pakistan,Class A,16,INC,Did not finish yard 17,2026-10-18 05:00,10:00,16
+Matias Delfino,Uruguay,Class A,16,INC,Did not finish yard 17,2026-10-18 05:00,02:00,21
+Mohammed Erraghay,Morocco,Class AA,16,INC,Did not finish yard 17,2026-10-18 05:00,06:00,25
+Pg Mas Norazlin Pg Momin,Brunei,Class A,16,INC,Did not finish yard 17,2026-10-18 05:00,13:00,15
+Prince Tamang,Nepal,Class A,16,OVER,Over the hour on yard 17,2026-10-18 05:00,10:45,17
+Rufi Shahzada,Pakistan,Class A,16,INC,Did not finish yard 17,2026-10-18 05:00,10:00,11
+Safal Lama,Nepal,Class A,16,OVER,Over the hour on yard 17,2026-10-18 05:00,10:45,15
+Taimur Asif Mirza,Pakistan,Class A,16,INC,Did not finish yard 17,2026-10-18 05:00,10:00,7
+Yann Perret,Côte d'Ivoire,Class A,16,INC,Did not finish yard 17,2026-10-18 05:00,05:00,17
+Yoann Preteseille,Côte d'Ivoire,Class A,16,INC,Did not finish yard 17,2026-10-18 05:00,05:00,24
+林慶華,Taipei,Class AA,16,INC,Did not finish yard 17,2026-10-18 05:00,13:00,39
+Anette Devik Bomo,Norway,Class AAA,16,RTC,Did not start yard 17,2026-10-18 04:00,06:00,41
+Elze Eigelaar,Namibia,Class A,16,RTC,Did not start yard 17,2026-10-18 04:00,06:00,13
+Fredy Panteul,Guatemala,Class A,16,RTC,Did not start yard 17,2026-10-18 04:00,22:00,26
+Grace Lim,Malaysia,Class A,16,RTC,Did not start yard 17,2026-10-18 04:00,12:00,25
+Miles Smith,Bermuda,Class A,16,RTC,Did not start yard 17,2026-10-18 04:00,01:00,15
+Thomas Bouveau,Malaysia,Class A,16,RTC,Did not start yard 17,2026-10-18 04:00,12:00,17
+Wasif Razzaq,Pakistan,Class A,16,RTC,Did not start yard 17,2026-10-18 04:00,09:00,11
+Willem Silver,Namibia,Class A,16,RTC,Did not start yard 17,2026-10-18 04:00,06:00,15
+Ahsen Qureshi,Pakistan,Class A,15,INC,Did not finish yard 16,2026-10-18 04:00,09:00,11
+Alfredo Arias,Uruguay,Class A,15,INC,Did not finish yard 16,2026-10-18 04:00,01:00,24
+Clayton Kachamba,Zambia,Class A,15,INC,Did not finish yard 16,2026-10-18 04:00,06:00,10
+Diego Semeones Peñaranda Puma,Bolivia,Class A,15,INC,Did not finish yard 16,2026-10-18 04:00,00:00,22
+Juan Alberto Trisa Bustamante,Cuba,Class A,15,INC,Did not finish yard 16,2026-10-18 04:00,00:00,15
+Lucas Gaitán,Dominican Republic,Class A,15,INC,Did not finish yard 16,2026-10-18 04:00,00:00,12
+Mark Bezzina,Malta,Class A,15,INC,Did not finish yard 16,2026-10-18 04:00,06:00,26
+Markus Habermann,Germany,Class AAA,15,INC,Did not finish yard 16,2026-10-18 04:00,06:00,59
+Mohamed Ezzouak,Morocco,Class AA,15,INC,Did not finish yard 16,2026-10-18 04:00,05:00,24
+N'Gadio Wassa Konate,Côte d'Ivoire,Class A,15,INC,Did not finish yard 16,2026-10-18 04:00,04:00,13
+Ramina Dadasheva,Ukraine,Class A,15,OVER,Over the hour on yard 16,2026-10-18 04:00,06:00,17
+Solvi Snaer Egilsson,Iceland,Class AAA,15,INC,Did not finish yard 16,2026-10-18 04:00,04:00,35
+Sudhir Parajuli,Nepal,Class A,15,INC,Did not finish yard 16,2026-10-18 04:00,09:45,15
+Andrii Klatsunov,Ukraine,Class A,15,RTC,Did not start yard 16,2026-10-18 03:00,05:00,0
+Chia-Hung Wei,Taipei,Class AA,15,RTC,Did not start yard 16,2026-10-18 03:00,11:00,30
+Clifford Mwale,Zambia,Class A,15,RTC,Did not start yard 16,2026-10-18 03:00,05:00,20
+Danny Adolfo Vasquez Salama,Guatemala,Class A,15,RTC,Did not start yard 16,2026-10-18 03:00,21:00,22
+Doron De Wolf,Switzerland,Class AAA,15,RTC,Did not start yard 16,2026-10-18 03:00,05:00,33
+Hj Edy Astry Abd Malek,Brunei,Class A,15,RTC,Did not start yard 16,2026-10-18 03:00,11:00,12
+Jason Williams,Bermuda,Class A,15,RTC,Did not start yard 16,2026-10-18 03:00,00:00,42
+Kai Ping Jiang,Taipei,Class AA,15,RTC,Did not start yard 16,2026-10-18 03:00,11:00,21
+Lauri Pihlak,Estonia,Class AA,15,RTC,Did not start yard 16,2026-10-18 03:00,06:00,31
+Lotfi Mazouz,Algeria,Class A,15,RTC,Did not start yard 16,2026-10-18 03:00,04:00,28
+Manju Sunuwar,Nepal,Class A,15,RTC,Did not start yard 16,2026-10-18 03:00,08:45,14
+Matnarudin Ibrahim,Brunei,Class A,15,RTC,Did not start yard 16,2026-10-18 03:00,11:00,13
+Omer Khalid,Pakistan,Class A,15,RTC,Did not start yard 16,2026-10-18 03:00,08:00,7
+Pernille Thomsen,Denmark,Class AAA,15,RTC,Did not start yard 16,2026-10-18 03:00,05:00,34
+Rodolfo Enrique Ortiz Cuadra,Costa Rica,Class A,15,RTC,Did not start yard 16,2026-10-18 03:00,21:00,0
+Bambara Adama,Côte d'Ivoire,Class A,14,INC,Did not finish yard 15,2026-10-18 03:00,03:00,15
+Daiyi Shiguetome,Dominican Republic,Class A,14,INC,Did not finish yard 15,2026-10-18 03:00,23:00,18
+Lukas Linner Johanning,Costa Rica,Class A,14,INC,Did not finish yard 15,2026-10-18 03:00,21:00,0
+Marie Pierre Koudou,Côte d'Ivoire,Class A,14,INC,Did not finish yard 15,2026-10-18 03:00,03:00,15
+"Bozhilova, Lyuba",Bulgaria,Class A,14,RTC,Did not start yard 15,2026-10-18 02:00,05:00,26
+Felipe Benavides,Chile,Class A,14,RTC,Did not start yard 15,2026-10-18 02:00,23:00,15
+Mihail Kombakov,Bulgaria,Class A,14,RTC,Did not start yard 15,2026-10-18 02:00,05:00,9
+Antonio Quaresma,Portugal,Class AAA,13,INC,Did not finish yard 14,2026-10-18 02:00,03:00,37
+Davi Rodrigues Dos Passos,Brazil,Class AAA,13,INC,Did not finish yard 14,2026-10-18 02:00,23:00,41
+Karl Birkenstock,Namibia,Class A,13,OVER,Over the hour on yard 14,2026-10-18 02:00,04:00,16
+Leandro Carreño Rojas,Cuba,Class A,13,INC,Did not finish yard 14,2026-10-18 02:00,22:00,14
+Pablo Solano Calderón,Costa Rica,Class A,13,INC,Did not finish yard 14,2026-10-18 02:00,20:00,0
+Pedro Taveras,Dominican Republic,Class A,13,INC,Did not finish yard 14,2026-10-18 02:00,22:00,16
+Daniela Pellerova,Slovakia,Class AA,13,RTC,Did not start yard 14,2026-10-18 01:00,03:00,27
+Dave Courcy,Bermuda,Class A,13,RTC,Did not start yard 14,2026-10-18 01:00,22:00,18
+Eric Chapili,Zambia,Class A,13,RTC,Did not start yard 14,2026-10-18 01:00,03:00,10
+Hugo Loja,Ecuador,Class A,13,RTC,Did not start yard 14,2026-10-18 01:00,20:00,16
+Ronald Eduardo Franco Britez,Paraguay,Class A,13,RTC,Did not start yard 14,2026-10-18 01:00,22:00,12
+Vyara Peteva,Bulgaria,Class A,13,RTC,Did not start yard 14,2026-10-18 01:00,04:00,11
+Jeremie Goutto,Côte d'Ivoire,Class A,12,INC,Did not finish yard 13,2026-10-18 01:00,01:00,15
+Kiril Rangelov,Bulgaria,Class A,12,OVER,Over the hour on yard 13,2026-10-18 01:00,04:00,19
+Parvina,Tajikistan,Class A,12,OVER,Over the hour on yard 13,2026-10-18 01:00,06:00,10
+Zakaria Kossobe,Côte d'Ivoire,Class A,12,OVER,Over the hour on yard 13,2026-10-18 01:00,01:00,20
+Amir,Tajikistan,Class A,12,RTC,Did not start yard 13,2026-10-18 00:00,05:00,10
+Chai Hau Yen,Malaysia,Class A,12,RTC,Did not start yard 13,2026-10-18 00:00,08:00,17
+Diwakar Budha Magar,Nepal,Class A,12,RTC,Did not start yard 13,2026-10-18 00:00,05:45,13
+Edward Ferrari-Willis,Bermuda,Class A,12,RTC,Did not start yard 13,2026-10-18 00:00,21:00,15
+Fermin Diaz,Chile,Class A,12,RTC,Did not start yard 13,2026-10-18 00:00,21:00,15
+Harendra Kumar Chaudharu,Nepal,Class A,12,RTC,Did not start yard 13,2026-10-18 00:00,05:45,13
+James Roberts,Bermuda,Class A,12,RTC,Did not start yard 13,2026-10-18 00:00,21:00,17
+Jonathan Chapman,Bermuda,Class A,12,RTC,Did not start yard 13,2026-10-18 00:00,21:00,15
+Marouane Balyot,Morocco,Class AA,12,RTC,Did not start yard 13,2026-10-18 00:00,01:00,24
+Olim,Tajikistan,Class A,12,RTC,Did not start yard 13,2026-10-18 00:00,05:00,11
+Philip Woollins,Bermuda,Class A,12,RTC,Did not start yard 13,2026-10-18 00:00,21:00,24
+Trevour Muyunda,Zambia,Class A,12,RTC,Did not start yard 13,2026-10-18 00:00,02:00,20
+Yuldosh,Tajikistan,Class A,12,RTC,Did not start yard 13,2026-10-18 00:00,05:00,8
+Driss Taifour,Morocco,Class AA,11,INC,Did not finish yard 12,2026-10-18 00:00,01:00,25
+Eduardo Rodriguez Rodriguez,Cuba,Class A,11,INC,Did not finish yard 12,2026-10-18 00:00,20:00,21
+Limpo Mubita,Zambia,Class A,11,INC,Did not finish yard 12,2026-10-18 00:00,02:00,17
+Luis Edel Iglesias Calzadillas,Cuba,Class A,11,INC,Did not finish yard 12,2026-10-18 00:00,20:00,21
+Mario Georgiev,Bulgaria,Class A,11,INC,Did not finish yard 12,2026-10-18 00:00,03:00,19
+Nelson Pita,Ecuador,Class A,11,INC,Did not finish yard 12,2026-10-18 00:00,19:00,15
+Eyupcan Genc,Turkey,Class AA,11,RTC,Did not start yard 12,2026-10-17 23:00,02:00,24
+Ivan Venkov,Bulgaria,Class A,11,RTC,Did not start yard 12,2026-10-17 23:00,02:00,13
+Katie Vanner,Bermuda,Class A,11,RTC,Did not start yard 12,2026-10-17 23:00,20:00,18
+Kevin Tebay,Malaysia,Class A,11,RTC,Did not start yard 12,2026-10-17 23:00,07:00,15
+Mirzodaler,Tajikistan,Class A,11,RTC,Did not start yard 12,2026-10-17 23:00,04:00,9
+Jose Santos,Dominican Republic,Class A,10,INC,Did not finish yard 11,2026-10-17 23:00,19:00,15
+Juan Lorrenz Lizana,Chile,Class A,10,OVER,Over the hour on yard 11,2026-10-17 23:00,20:00,19
+Luiz Andre Costa Viana,Brazil,Class AAA,10,INC,Did not finish yard 11,2026-10-17 23:00,20:00,39
+Muhammad Shoaib Khurram,Pakistan,Class A,10,INC,Did not finish yard 11,2026-10-17 23:00,04:00,6
+Ahmet Sahinoz,Turkey,Class AA,10,RTC,Did not start yard 11,2026-10-17 22:00,01:00,32
+António Pinto,Portugal,Class AAA,10,RTC,Did not start yard 11,2026-10-17 22:00,23:00,40
+Claire Gemmell,Bermuda,Class A,10,RTC,Did not start yard 11,2026-10-17 22:00,19:00,15
+Denis Dmitriev,Tajikistan,Class A,10,RTC,Did not start yard 11,2026-10-17 22:00,03:00,7
+Doniyor,Tajikistan,Class A,10,RTC,Did not start yard 11,2026-10-17 22:00,03:00,9
+Ethan Snyders,Namibia,Class A,10,RTC,Did not start yard 11,2026-10-17 22:00,00:00,15
+Gline Mathew,Brunei,Class A,10,RTC,Did not start yard 11,2026-10-17 22:00,06:00,13
+Inna,Tajikistan,Class A,10,RTC,Did not start yard 11,2026-10-17 22:00,03:00,7
+Maksim Radtsenko,Estonia,Class AA,10,RTC,Did not start yard 11,2026-10-17 22:00,01:00,32
+Martina Klancnik Potrc,Slovenia,Class AA,10,RTC,Did not start yard 11,2026-10-17 22:00,00:00,30
+Seri Momamed Reda,Algeria,Class A,10,RTC,Did not start yard 11,2026-10-17 22:00,23:00,0
+Guillermo David Pelayo Miller,Cuba,Class A,9,INC,Did not finish yard 10,2026-10-17 22:00,18:00,16
+Higinio Contrera Zuniga,Cuba,Class A,9,INC,Did not finish yard 10,2026-10-17 22:00,18:00,15
+kaoutar Bendoumou,Morocco,Class AA,9,INC,Did not finish yard 10,2026-10-17 22:00,23:00,30
+Muhammad Ali Rashid Haji Abd Rani,Brunei,Class A,9,INC,Did not finish yard 10,2026-10-17 22:00,06:00,12
+Yohan Bethenod,Malaysia,Class A,9,INC,Did not finish yard 10,2026-10-17 22:00,06:00,15
+Firuz,Tajikistan,Class A,9,RTC,Did not start yard 10,2026-10-17 21:00,02:00,12
+Florian Buchet,Côte d'Ivoire,Class A,9,RTC,Did not start yard 10,2026-10-17 21:00,21:00,13
+Javier Mariscal,Ecuador,Class A,9,RTC,Did not start yard 10,2026-10-17 21:00,16:00,14
+MuhammadAzry ZulkarnainYuhanis,Malaysia,Class A,9,RTC,Did not start yard 10,2026-10-17 21:00,05:00,16
+Nikolay Mladenov,Bulgaria,Class A,9,RTC,Did not start yard 10,2026-10-17 21:00,00:00,12
+Oscar Hidalgo,Ecuador,Class A,9,RTC,Did not start yard 10,2026-10-17 21:00,16:00,16
+Wafiy Jauhari,Brunei,Class A,9,RTC,Did not start yard 10,2026-10-17 21:00,05:00,5
+Yusuf Şahin,Turkey,Class AA,9,RTC,Did not start yard 10,2026-10-17 21:00,00:00,36
+Daylon Guerra Ramos,Cuba,Class A,8,INC,Did not finish yard 9,2026-10-17 21:00,17:00,14
+Duniesky Suarez Porte,Cuba,Class A,8,INC,Did not finish yard 9,2026-10-17 21:00,17:00,15
+Ozgur Yalcici,Ukraine,Class A,8,OVER,Over the hour on yard 9,2026-10-17 21:00,23:00,6
+Shams Ghazee,Pakistan,Class A,8,INC,Did not finish yard 9,2026-10-17 21:00,02:00,12
+Taha Kamal Saeed,Pakistan,Class A,8,INC,Did not finish yard 9,2026-10-17 21:00,02:00,15
+Bahrom,Tajikistan,Class A,8,RTC,Did not start yard 9,2026-10-17 20:00,01:00,7
+Carly Balmforth,Malaysia,Class A,8,RTC,Did not start yard 9,2026-10-17 20:00,04:00,21
+Hanah Cannon,Bermuda,Class A,8,RTC,Did not start yard 9,2026-10-17 20:00,17:00,13
+Joan Gomez,Dominican Republic,Class A,8,RTC,Did not start yard 9,2026-10-17 20:00,16:00,15
+Jorge Araya Arias,Costa Rica,Class A,8,RTC,Did not start yard 9,2026-10-17 20:00,14:00,0
+Megan McKenna,Malaysia,Class A,8,RTC,Did not start yard 9,2026-10-17 20:00,04:00,15
+Miroslav Sanevski,Bulgaria,Class A,8,RTC,Did not start yard 9,2026-10-17 20:00,23:00,15
+Odil,Tajikistan,Class A,8,RTC,Did not start yard 9,2026-10-17 20:00,01:00,7
+Shakti Ram Roka,Nepal,Class A,8,RTC,Did not start yard 9,2026-10-17 20:00,01:45,24
+Toby Derham,Bermuda,Class A,8,RTC,Did not start yard 9,2026-10-17 20:00,17:00,19
+Carlos Leguizamon,Paraguay,Class A,7,INC,Did not finish yard 8,2026-10-17 20:00,17:00,14
+Carolina Mayorga,Chile,Class A,7,INC,Did not finish yard 8,2026-10-17 20:00,17:00,16
+Muhammad Ajmal Azman Sudin,Brunei,Class A,7,INC,Did not finish yard 8,2026-10-17 20:00,04:00,20
+Shokhrukh,Tajikistan,Class A,7,OVER,Over the hour on yard 8,2026-10-17 20:00,01:00,18
+Mark Harris,Bermuda,Class A,7,RTC,Did not start yard 8,2026-10-17 19:00,16:00,13
+Miguel Mifsud,Malta,Class A,7,RTC,Did not start yard 8,2026-10-17 19:00,21:00,20
+Tieh-Cheng Chueh,Taipei,Class AA,7,RTC,Did not start yard 8,2026-10-17 19:00,03:00,29
+Winstone Mwale,Zambia,Class A,7,RTC,Did not start yard 8,2026-10-17 19:00,21:00,12
+Mohammed Sahih,Morocco,Class AA,6,INC,Did not finish yard 7,2026-10-17 19:00,20:00,37
+Waqar Khattak,Pakistan,Class A,6,INC,Did not finish yard 7,2026-10-17 19:00,00:00,6
+Khachbane Abdellah,Morocco,Class AA,5,RTC,Did not start yard 6,2026-10-17 17:00,18:00,35
+Serhii Bilyi,Ukraine,Class A,4,OVER,Over the hour on yard 5,2026-10-17 17:00,19:00,0
+Jorge Camilo,Dominican Republic,Class A,4,RTC,Did not start yard 5,2026-10-17 16:00,12:00,23
