@@ -109,6 +109,12 @@ Help pages are available in R using:
 ?run_wtc_app
 ```
 
+## Package documentation
+
+The package documentation, function references and
+getting started vignette are available on the
+[pkgdown website](https://etc5523-2026.github.io/etc5523-assignment-4-jban0020/).
+
 ## Licence
 
 The package code is released under the MIT licence. See `LICENSE.md` for details.
