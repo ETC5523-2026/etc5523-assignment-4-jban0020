@@ -112,15 +112,14 @@
 <p>Launch the interactive dashboard using:</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu">backyardWTC</span><span class="fu">::</span><span class="fu"><a href="reference/run_wtc_app.html">run_wtc_app</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
-<p>The application allows users to:</p>
+<p>The dashboard has two tabs, with independent filters:</p>
 <ul>
-<li>Compare runner performance by nation or competition class</li>
-<li>Filter runners by nation and competition class</li>
-<li>Set a minimum number of completed yards</li>
-<li>Compare mean and median performance</li>
-<li>Explore performance charts and summary statistics</li>
+<li>
+<strong>Race progression:</strong> choose nations and competition classes, advance through completed yards one at a time, and switch between the count reaching each yard and the number stopping at each yard. Click the chart to see stopping details for a selected yard.</li>
+<li>
+<strong>Performance comparison:</strong> compare nations or competition classes using cumulative-yards lines or runner distributions. Use the yard control to highlight a point on the lines or to set a minimum for distributions and statistics. Rank summaries by mean or median and choose whether to show the top five groups, selected groups or all groups.</li>
 </ul>
-<p>The dashboard updates automatically when users change the filters.</p>
+<p>The app uses the packaged <code>wtc_stopped</code> data; no external CSV is needed at launch. The progression view reconstructs only the recorded stopped-runner cohort and is not an official live race standing. Totals are affected by group size, so use mean or median for comparisons of typical individual performance.</p>
 </div>
 <div class="section level2">
 <h2 id="summary-function">Summary function<a class="anchor" aria-label="anchor" href="#summary-function"></a>
@@ -150,6 +149,11 @@
 <span><span class="op">?</span><span class="va">run_wtc_app</span></span></code></pre></div>
 </div>
 <div class="section level2">
+<h2 id="package-documentation">Package documentation<a class="anchor" aria-label="anchor" href="#package-documentation"></a>
+</h2>
+<p>The package documentation, function references and getting started vignette are available on the <a href="https://etc5523-2026.github.io/etc5523-assignment-4-jban0020/" class="external-link">pkgdown website</a>.</p>
+</div>
+<div class="section level2">
 <h2 id="licence">Licence<a class="anchor" aria-label="anchor" href="#licence"></a>
 </h2>
 <p>The package code is released under the MIT licence. See <code>LICENSE.md</code> for details.</p>
@@ -157,7 +161,7 @@
 <div class="section level2">
 <h2 id="generative-ai-declaration">Generative AI declaration<a class="anchor" aria-label="anchor" href="#generative-ai-declaration"></a>
 </h2>
-<p>I used ChatGPT to assist with planning the R package structure, developing and debugging R functions, writing documentation, and creating the Shiny application and its styling. I reviewed and tested the code and outputs, and revised the suggested material for this assignment.</p>
+<p>I used ChatGPT to assist with planning the package and data-preparation workflow; developing, explaining and debugging R and Shiny code; designing Plotly visualisations, filters and styling; and drafting and revising the README and package documentation. I reviewed and revised the suggested code and text and checked the outputs used in this assignment.</p>
 </div>
 </div>
   </main><aside class="col-md-3"><div class="license">

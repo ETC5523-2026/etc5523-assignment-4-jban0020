@@ -1,137 +1,124 @@
 # Getting started with backyardWTC
 
-## Introduction
+## What the package does
 
-The `backyardWTC` package provides an interactive way to explore runner
-performance at the 2026 Backyard Ultra World Team Championships.
+`backyardWTC` is an R package and Shiny dashboard for exploring a
+snapshot of stopped runners from the 2026 Backyard Ultra World Team
+Championships. It is intended for spectators, running enthusiasts and
+performance analysts asking **how completed-yard performance differs
+across nations and competition classes**.
 
-It is designed for backyard ultra spectators, running enthusiasts and
-performance analysts interested in comparing results across nations and
-competition classes.
+The included `wtc_stopped` dataset records 925 stopped runners from 67
+nations in four classes, captured after yard 124. One yard means one
+completed race lap. The data is **not** the complete starting field,
+live race standings or the final team results.
 
-This vignette explains how to install the package, launch the Shiny
-application, explore its outputs and interpret the results.
+## Install and launch
 
-## Installation
-
-The development version of `backyardWTC` can be installed from GitHub.
+Install the package from its GitHub Classroom repository:
 
 ``` r
 
 install.packages("remotes")
-
-remotes::install_github(
-  "ETC5523-2026/etc5523-assignment-4-jban0020"
-)
+remotes::install_github("ETC5523-2026/etc5523-assignment-4-jban0020")
 ```
 
-Once installed, load the package:
+Load it and launch the application:
 
 ``` r
 
 library(backyardWTC)
 ```
 
-## Launching the Shiny application
-
-The main feature of the package is an interactive Shiny dashboard.
-
-Launch it using:
-
 ``` r
 
-backyardWTC::run_wtc_app()
+run_wtc_app()
 ```
 
-The dashboard opens in a browser and allows users to explore performance
-among stopped runners.
+The Shiny app reads the dataset **from the installed package**. You do
+not need to download or load the original CSV to run it.
 
-## Exploring the dashboard
+## The two dashboard tabs
 
-The application provides several controls for comparing runner
-performance.
+The app offers **Race progression** and **Performance comparison**. Each
+tab has its own nation, competition-class and yard controls. Changing
+the filters in one tab does not change the other tab.
 
-### Choosing a comparison
+### Race progression: when do runners stop?
 
-Use the **Compare performance by** menu to switch between:
+Use this tab to reconstruct how the *recorded stopped-runner cohort*
+progresses through completed-yard thresholds.
 
-- Nation: compare runners representing different countries.
-- Competition class: compare runners across the four recorded classes.
+1.  Choose any nations, or leave the nation selection blank for all
+    nations. Tick the classes to include.
+2.  Move the **Current completed yard** slider, use the previous/next
+    buttons, or play the slider to move one yard at a time.
+3.  Select **Runners reaching each yard** for a cumulative count, or
+    **Stopped at each yard** to examine departures.
+4.  Click a chart point or bar to update the selected yard and see the
+    runner names and recorded stopping reasons. The table initially
+    shows eight runners and can be expanded.
 
-### Applying filters
+The metric **Reached at least yard X** counts runners who completed X or
+more yards. For example, a runner recorded with exactly 50 completed
+yards is counted as having reached yard 50, but not yard 51. A flat
+section of the progression chart means no runner in the selected cohort
+stopped at that completed-yard count.
 
-The sidebar allows users to:
+This is not a survival curve for the entire field: runners not recorded
+as stopped in this snapshot are outside the dataset.
 
-- Select one or more nations, or leave the selection blank to include
-  all nations.
-- Select which competition classes to include.
-- Set the minimum number of completed yards.
-- Choose mean or median yards as the performance measure.
-- Adjust the number of nations shown in the chart.
+### Performance comparison: how do groups differ?
 
-The chart and summary table update automatically when these settings
-change.
+Use this tab to compare nations or competition classes, with filters
+that are separate from those in Race progression.
 
-### Example exploration
+1.  Set **Compare performance by** to Nation or Competition class and
+    choose which nations and classes are included.
+2.  Select **Total yards (lines)** to plot each group’s cumulative
+    completed yards through every yard threshold. The yard slider
+    highlights one vertical position on these lines; it does not filter
+    the lines. **Runners left** in the hover details refers only to the
+    selected stopped-runner cohort reaching that threshold and does not
+    set line height.
+3.  Switch to **Runner distribution** to see individual stopped-runner
+    yard counts and box plots for each group. Here the yard slider is a
+    **minimum completed-yards filter**.
+4.  Choose **Median yards** or **Mean yards** to rank the summary table,
+    then show the top five groups, selected groups or all groups. In
+    Nation mode you can also choose how many nations appear in the
+    chart.
 
-Suppose you want to compare nations with runners who completed at least
-50 yards.
+The plotted groups and table can use **different rankings**: line-chart
+nations are selected by total accumulated yards, while table rows are
+ranked by the selected mean or median. Total yards is strongly affected
+by the number of runners in the group; mean and median are better for
+discussing typical individual performance. Very small groups can give
+unstable comparisons.
 
-1.  Select **Nation** as the comparison.
-2.  Set **Minimum completed yards** to 50.
-3.  Keep all competition classes selected.
-4.  Select **Median yards** as the performance measure.
-5.  Examine the resulting chart and summary table.
+## Interpreting a result
 
-This allows you to compare performance among runners who reached the
-selected threshold.
+For example, choose all nations and all classes, then compare the
+classes using the summary table. In this snapshot, the median recorded
+completion was **62.5 yards for Super Six** versus **18 yards for Class
+A**. These are comparisons *within the recorded stopped-runner data*,
+not causal effects of class membership or official team rankings. The
+class definitions are source-recorded categories, and the dataset does
+not by itself establish why they differ.
 
-## Interpreting the outputs
+The **Race progression** tab supports a complementary question: at what
+point did runners in the chosen cohort tend to stop, and were there
+yards with more recorded stops than others? Use the chart’s tooltips and
+stopping-details table to connect the counts with the individual
+records.
 
-### Performance chart
+## Summarise the data in R
 
-The bar chart displays either the mean or median completed yards for
-each nation or competition class.
-
-The **median** represents the middle yard count within a group, while
-the **mean** represents the arithmetic average.
-
-Each bar is labelled with the number of runners contributing to that
-group’s summary.
-
-When comparing nations, the chart displays the highest-ranked nations
-according to the selected performance measure.
-
-### Summary table
-
-The table provides additional statistics for every group matching the
-selected filters.
-
-These include:
-
-- **Runners:** Number of stopped runners in the group.
-- **Mean yards:** Average completed yards.
-- **Median yards:** Middle completed yard count.
-- **Maximum yards:** Highest completed yard count.
-- **Total yards:** Combined completed yards across runners.
-
-The table is useful for comparing performance while considering
-differences in group sizes.
-
-A high group median does not necessarily indicate that the group had the
-greatest total number of completed yards.
-
-## Working with the data directly
-
-The package also includes the `wtc_stopped` dataset.
+The `wtc_stopped` dataset can be explored without the app:
 
 ``` r
 
-head(
-  wtc_stopped[
-    , c("runner", "nation", "class", "yards")
-  ]
-)
+head(wtc_stopped[, c("runner", "nation", "class", "yards")])
 #>            runner                   nation     class yards
 #> 1    Ivo Steyaert                  Belgium Super Six   124
 #> 2   Merijn Geerts                  Belgium Super Six   124
@@ -141,18 +128,15 @@ head(
 #> 6  Nicholas Steel United States of America Super Six    94
 ```
 
-The
+The exported
 [`summarise_stopped_runners()`](../reference/summarise_stopped_runners.md)
-function allows users to generate summaries without opening the
-dashboard.
-
-For example, summarise performance by competition class:
+function is also used by the app to calculate grouped statistics. It
+returns group size, mean and median yards, maximum yards and total
+yards.
 
 ``` r
 
-summarise_stopped_runners(
-  group = "class"
-)
+summarise_stopped_runners(group = "class")
 #>       group runners mean_yards median_yards max_yards total_yards
 #> 1 Super Six      84   64.58333         62.5       124        5425
 #> 2 Class AAA     252   40.85317         38.0        89       10295
@@ -160,17 +144,11 @@ summarise_stopped_runners(
 #> 4   Class A     311   18.92283         18.0        42        5885
 ```
 
-Alternatively, compare nations after restricting the data to runners
-completing at least 50 yards:
+To compare nations among runners completing at least 50 yards:
 
 ``` r
 
-head(
-  summarise_stopped_runners(
-    group = "nation",
-    min_yards = 50
-  )
-)
+head(summarise_stopped_runners(group = "nation", min_yards = 50))
 #>                      group runners mean_yards median_yards max_yards
 #> 1 United States of America      11   79.81818         83.0       106
 #> 2                Australia      13   72.46154         73.0        86
@@ -187,32 +165,25 @@ head(
 #> 6         971
 ```
 
-The function returns the same core summary measures used by the Shiny
-application.
+## Empty selections and limitations
 
-## Important limitations
+If you uncheck every competition class, the app explains that no runners
+match rather than displaying a misleading chart. In Performance
+comparison, selecting a minimum yard threshold above every runner in the
+selected group also produces an informative message. Broaden the
+selection or lower the threshold to continue.
 
-The dataset contains 925 stopped-runner records from a snapshot taken
-after yard 124 of the 2026 championships.
+The data comes from the [WTC 2026 Live
+Dashboard](https://wtc2026.bigsbackyardultra.com/#race), captured as a
+CSV snapshot after yard 124. It contains 925 *stopped* runners across 67
+nations, not all competitors. It cannot be used to infer complete final
+standings, and comparing nations with different numbers of runners
+requires care.
 
-It does not represent the complete championship roster or official team
-standings.
+## Further information
 
-Consequently, the results describe performance among runners recorded as
-stopped in this snapshot, rather than the final performance of every
-championship participant.
-
-Comparisons involving groups with relatively few runners should also be
-interpreted cautiously.
-
-The original data was obtained from the [WTC 2026 Live
-Dashboard](https://wtc2026.bigsbackyardultra.com/#race).
-
-## Conclusion
-
-The `backyardWTC` package provides two ways to explore runner
-performance: an interactive Shiny application and an R summary function.
-
-Together, these tools allow users to compare nations and competition
-classes, investigate different performance measures and explore the
-championship data while remaining aware of its limitations.
+See [`?wtc_stopped`](../reference/wtc_stopped.md) for the data
+dictionary,
+[`?summarise_stopped_runners`](../reference/summarise_stopped_runners.md)
+for the summary function and
+[`?run_wtc_app`](../reference/run_wtc_app.md) for the app launcher.

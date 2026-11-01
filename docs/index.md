@@ -82,15 +82,24 @@ Launch the interactive dashboard using:
 backyardWTC::run_wtc_app()
 ```
 
-The application allows users to:
+The dashboard has two tabs, with independent filters:
 
-- Compare runner performance by nation or competition class
-- Filter runners by nation and competition class
-- Set a minimum number of completed yards
-- Compare mean and median performance
-- Explore performance charts and summary statistics
+- **Race progression:** choose nations and competition classes, advance
+  through completed yards one at a time, and switch between the count
+  reaching each yard and the number stopping at each yard. Click the
+  chart to see stopping details for a selected yard.
+- **Performance comparison:** compare nations or competition classes
+  using cumulative-yards lines or runner distributions. Use the yard
+  control to highlight a point on the lines or to set a minimum for
+  distributions and statistics. Rank summaries by mean or median and
+  choose whether to show the top five groups, selected groups or all
+  groups.
 
-The dashboard updates automatically when users change the filters.
+The app uses the packaged `wtc_stopped` data; no external CSV is needed
+at launch. The progression view reconstructs only the recorded
+stopped-runner cohort and is not an official live race standing. Totals
+are affected by group size, so use mean or median for comparisons of
+typical individual performance.
 
 ## Summary function
 
@@ -136,6 +145,12 @@ Help pages are available in R using:
 ?run_wtc_app
 ```
 
+## Package documentation
+
+The package documentation, function references and getting started
+vignette are available on the [pkgdown
+website](https://etc5523-2026.github.io/etc5523-assignment-4-jban0020/).
+
 ## Licence
 
 The package code is released under the MIT licence. See `LICENSE.md` for
@@ -143,8 +158,9 @@ details.
 
 ## Generative AI declaration
 
-I used ChatGPT to assist with planning the R package structure,
-developing and debugging R functions, writing documentation, and
-creating the Shiny application and its styling. I reviewed and tested
-the code and outputs, and revised the suggested material for this
+I used ChatGPT to assist with planning the package and data-preparation
+workflow; developing, explaining and debugging R and Shiny code;
+designing Plotly visualisations, filters and styling; and drafting and
+revising the README and package documentation. I reviewed and revised
+the suggested code and text and checked the outputs used in this
 assignment.

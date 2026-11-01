@@ -64,143 +64,122 @@
     
     
 <div class="section level2">
-<h2 id="introduction">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a>
+<h2 id="what-the-package-does">What the package does<a class="anchor" aria-label="anchor" href="#what-the-package-does"></a>
 </h2>
-<p>The <code>backyardWTC</code> package provides an interactive way to
-explore runner performance at the 2026 Backyard Ultra World Team
-Championships.</p>
-<p>It is designed for backyard ultra spectators, running enthusiasts and
-performance analysts interested in comparing results across nations and
-competition classes.</p>
-<p>This vignette explains how to install the package, launch the Shiny
-application, explore its outputs and interpret the results.</p>
+<p><code>backyardWTC</code> is an R package and Shiny dashboard for
+exploring a snapshot of stopped runners from the 2026 Backyard Ultra
+World Team Championships. It is intended for spectators, running
+enthusiasts and performance analysts asking <strong>how completed-yard
+performance differs across nations and competition classes</strong>.</p>
+<p>The included <code>wtc_stopped</code> dataset records 925 stopped
+runners from 67 nations in four classes, captured after yard 124. One
+yard means one completed race lap. The data is <strong>not</strong> the
+complete starting field, live race standings or the final team
+results.</p>
 </div>
 <div class="section level2">
-<h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
+<h2 id="install-and-launch">Install and launch<a class="anchor" aria-label="anchor" href="#install-and-launch"></a>
 </h2>
-<p>The development version of <code>backyardWTC</code> can be installed
-from GitHub.</p>
+<p>Install the package from its GitHub Classroom repository:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"remotes"</span><span class="op">)</span></span>
-<span></span>
-<span><span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span></span>
-<span>  <span class="st">"ETC5523-2026/etc5523-assignment-4-jban0020"</span></span>
-<span><span class="op">)</span></span></code></pre></div>
-<p>Once installed, load the package:</p>
+<span><span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"ETC5523-2026/etc5523-assignment-4-jban0020"</span><span class="op">)</span></span></code></pre></div>
+<p>Load it and launch the application:</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va">backyardWTC</span><span class="op">)</span></span></code></pre></div>
-</div>
-<div class="section level2">
-<h2 id="launching-the-shiny-application">Launching the Shiny application<a class="anchor" aria-label="anchor" href="#launching-the-shiny-application"></a>
-</h2>
-<p>The main feature of the package is an interactive Shiny
-dashboard.</p>
-<p>Launch it using:</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu">backyardWTC</span><span class="fu">::</span><span class="fu"><a href="../reference/run_wtc_app.html">run_wtc_app</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
-<p>The dashboard opens in a browser and allows users to explore
-performance among stopped runners.</p>
+<code class="sourceCode R"><span><span class="fu"><a href="../reference/run_wtc_app.html">run_wtc_app</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
+<p>The Shiny app reads the dataset <strong>from the installed
+package</strong>. You do not need to download or load the original CSV
+to run it.</p>
 </div>
 <div class="section level2">
-<h2 id="exploring-the-dashboard">Exploring the dashboard<a class="anchor" aria-label="anchor" href="#exploring-the-dashboard"></a>
+<h2 id="the-two-dashboard-tabs">The two dashboard tabs<a class="anchor" aria-label="anchor" href="#the-two-dashboard-tabs"></a>
 </h2>
-<p>The application provides several controls for comparing runner
-performance.</p>
+<p>The app offers <strong>Race progression</strong> and
+<strong>Performance comparison</strong>. Each tab has its own nation,
+competition-class and yard controls. Changing the filters in one tab
+does not change the other tab.</p>
 <div class="section level3">
-<h3 id="choosing-a-comparison">Choosing a comparison<a class="anchor" aria-label="anchor" href="#choosing-a-comparison"></a>
+<h3 id="race-progression-when-do-runners-stop">Race progression: when do runners stop?<a class="anchor" aria-label="anchor" href="#race-progression-when-do-runners-stop"></a>
 </h3>
-<p>Use the <strong>Compare performance by</strong> menu to switch
-between:</p>
-<ul>
-<li>Nation: compare runners representing different countries.</li>
-<li>Competition class: compare runners across the four recorded
-classes.</li>
-</ul>
-</div>
-<div class="section level3">
-<h3 id="applying-filters">Applying filters<a class="anchor" aria-label="anchor" href="#applying-filters"></a>
-</h3>
-<p>The sidebar allows users to:</p>
-<ul>
-<li>Select one or more nations, or leave the selection blank to include
-all nations.</li>
-<li>Select which competition classes to include.</li>
-<li>Set the minimum number of completed yards.</li>
-<li>Choose mean or median yards as the performance measure.</li>
-<li>Adjust the number of nations shown in the chart.</li>
-</ul>
-<p>The chart and summary table update automatically when these settings
-change.</p>
-</div>
-<div class="section level3">
-<h3 id="example-exploration">Example exploration<a class="anchor" aria-label="anchor" href="#example-exploration"></a>
-</h3>
-<p>Suppose you want to compare nations with runners who completed at
-least 50 yards.</p>
+<p>Use this tab to reconstruct how the <em>recorded stopped-runner
+cohort</em> progresses through completed-yard thresholds.</p>
 <ol style="list-style-type: decimal">
-<li>Select <strong>Nation</strong> as the comparison.</li>
-<li>Set <strong>Minimum completed yards</strong> to 50.</li>
-<li>Keep all competition classes selected.</li>
-<li>Select <strong>Median yards</strong> as the performance
-measure.</li>
-<li>Examine the resulting chart and summary table.</li>
+<li>Choose any nations, or leave the nation selection blank for all
+nations. Tick the classes to include.</li>
+<li>Move the <strong>Current completed yard</strong> slider, use the
+previous/next buttons, or play the slider to move one yard at a
+time.</li>
+<li>Select <strong>Runners reaching each yard</strong> for a cumulative
+count, or <strong>Stopped at each yard</strong> to examine
+departures.</li>
+<li>Click a chart point or bar to update the selected yard and see the
+runner names and recorded stopping reasons. The table initially shows
+eight runners and can be expanded.</li>
 </ol>
-<p>This allows you to compare performance among runners who reached the
-selected threshold.</p>
+<p>The metric <strong>Reached at least yard X</strong> counts runners
+who completed X or more yards. For example, a runner recorded with
+exactly 50 completed yards is counted as having reached yard 50, but not
+yard 51. A flat section of the progression chart means no runner in the
+selected cohort stopped at that completed-yard count.</p>
+<p>This is not a survival curve for the entire field: runners not
+recorded as stopped in this snapshot are outside the dataset.</p>
+</div>
+<div class="section level3">
+<h3 id="performance-comparison-how-do-groups-differ">Performance comparison: how do groups differ?<a class="anchor" aria-label="anchor" href="#performance-comparison-how-do-groups-differ"></a>
+</h3>
+<p>Use this tab to compare nations or competition classes, with filters
+that are separate from those in Race progression.</p>
+<ol style="list-style-type: decimal">
+<li>Set <strong>Compare performance by</strong> to Nation or Competition
+class and choose which nations and classes are included.</li>
+<li>Select <strong>Total yards (lines)</strong> to plot each group’s
+cumulative completed yards through every yard threshold. The yard slider
+highlights one vertical position on these lines; it does not filter the
+lines. <strong>Runners left</strong> in the hover details refers only to
+the selected stopped-runner cohort reaching that threshold and does not
+set line height.</li>
+<li>Switch to <strong>Runner distribution</strong> to see individual
+stopped-runner yard counts and box plots for each group. Here the yard
+slider is a <strong>minimum completed-yards filter</strong>.</li>
+<li>Choose <strong>Median yards</strong> or <strong>Mean yards</strong>
+to rank the summary table, then show the top five groups, selected
+groups or all groups. In Nation mode you can also choose how many
+nations appear in the chart.</li>
+</ol>
+<p>The plotted groups and table can use <strong>different
+rankings</strong>: line-chart nations are selected by total accumulated
+yards, while table rows are ranked by the selected mean or median. Total
+yards is strongly affected by the number of runners in the group; mean
+and median are better for discussing typical individual performance.
+Very small groups can give unstable comparisons.</p>
 </div>
 </div>
 <div class="section level2">
-<h2 id="interpreting-the-outputs">Interpreting the outputs<a class="anchor" aria-label="anchor" href="#interpreting-the-outputs"></a>
+<h2 id="interpreting-a-result">Interpreting a result<a class="anchor" aria-label="anchor" href="#interpreting-a-result"></a>
 </h2>
-<div class="section level3">
-<h3 id="performance-chart">Performance chart<a class="anchor" aria-label="anchor" href="#performance-chart"></a>
-</h3>
-<p>The bar chart displays either the mean or median completed yards for
-each nation or competition class.</p>
-<p>The <strong>median</strong> represents the middle yard count within a
-group, while the <strong>mean</strong> represents the arithmetic
-average.</p>
-<p>Each bar is labelled with the number of runners contributing to that
-group’s summary.</p>
-<p>When comparing nations, the chart displays the highest-ranked nations
-according to the selected performance measure.</p>
-</div>
-<div class="section level3">
-<h3 id="summary-table">Summary table<a class="anchor" aria-label="anchor" href="#summary-table"></a>
-</h3>
-<p>The table provides additional statistics for every group matching the
-selected filters.</p>
-<p>These include:</p>
-<ul>
-<li>
-<strong>Runners:</strong> Number of stopped runners in the
-group.</li>
-<li>
-<strong>Mean yards:</strong> Average completed yards.</li>
-<li>
-<strong>Median yards:</strong> Middle completed yard count.</li>
-<li>
-<strong>Maximum yards:</strong> Highest completed yard count.</li>
-<li>
-<strong>Total yards:</strong> Combined completed yards across
-runners.</li>
-</ul>
-<p>The table is useful for comparing performance while considering
-differences in group sizes.</p>
-<p>A high group median does not necessarily indicate that the group had
-the greatest total number of completed yards.</p>
-</div>
+<p>For example, choose all nations and all classes, then compare the
+classes using the summary table. In this snapshot, the median recorded
+completion was <strong>62.5 yards for Super Six</strong> versus
+<strong>18 yards for Class A</strong>. These are comparisons <em>within
+the recorded stopped-runner data</em>, not causal effects of class
+membership or official team rankings. The class definitions are
+source-recorded categories, and the dataset does not by itself establish
+why they differ.</p>
+<p>The <strong>Race progression</strong> tab supports a complementary
+question: at what point did runners in the chosen cohort tend to stop,
+and were there yards with more recorded stops than others? Use the
+chart’s tooltips and stopping-details table to connect the counts with
+the individual records.</p>
 </div>
 <div class="section level2">
-<h2 id="working-with-the-data-directly">Working with the data directly<a class="anchor" aria-label="anchor" href="#working-with-the-data-directly"></a>
+<h2 id="summarise-the-data-in-r">Summarise the data in R<a class="anchor" aria-label="anchor" href="#summarise-the-data-in-r"></a>
 </h2>
-<p>The package also includes the <code>wtc_stopped</code> dataset.</p>
+<p>The <code>wtc_stopped</code> dataset can be explored without the
+app:</p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span></span>
-<span>  <span class="va">wtc_stopped</span><span class="op">[</span></span>
-<span>    , <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"runner"</span>, <span class="st">"nation"</span>, <span class="st">"class"</span>, <span class="st">"yards"</span><span class="op">)</span></span>
-<span>  <span class="op">]</span></span>
-<span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="va">wtc_stopped</span><span class="op">[</span>, <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"runner"</span>, <span class="st">"nation"</span>, <span class="st">"class"</span>, <span class="st">"yards"</span><span class="op">)</span><span class="op">]</span><span class="op">)</span></span>
 <span><span class="co">#&gt;            runner                   nation     class yards</span></span>
 <span><span class="co">#&gt; 1    Ivo Steyaert                  Belgium Super Six   124</span></span>
 <span><span class="co">#&gt; 2   Merijn Geerts                  Belgium Super Six   124</span></span>
@@ -208,27 +187,19 @@ the greatest total number of completed yards.</p>
 <span><span class="co">#&gt; 4 Kengo Takahashi                    Japan Super Six   104</span></span>
 <span><span class="co">#&gt; 5  Julien Pierlot                   France Super Six   100</span></span>
 <span><span class="co">#&gt; 6  Nicholas Steel United States of America Super Six    94</span></span></code></pre></div>
-<p>The <code><a href="../reference/summarise_stopped_runners.html">summarise_stopped_runners()</a></code> function allows users to
-generate summaries without opening the dashboard.</p>
-<p>For example, summarise performance by competition class:</p>
+<p>The exported <code><a href="../reference/summarise_stopped_runners.html">summarise_stopped_runners()</a></code> function is
+also used by the app to calculate grouped statistics. It returns group
+size, mean and median yards, maximum yards and total yards.</p>
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu"><a href="../reference/summarise_stopped_runners.html">summarise_stopped_runners</a></span><span class="op">(</span></span>
-<span>  group <span class="op">=</span> <span class="st">"class"</span></span>
-<span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="fu"><a href="../reference/summarise_stopped_runners.html">summarise_stopped_runners</a></span><span class="op">(</span>group <span class="op">=</span> <span class="st">"class"</span><span class="op">)</span></span>
 <span><span class="co">#&gt;       group runners mean_yards median_yards max_yards total_yards</span></span>
 <span><span class="co">#&gt; 1 Super Six      84   64.58333         62.5       124        5425</span></span>
 <span><span class="co">#&gt; 2 Class AAA     252   40.85317         38.0        89       10295</span></span>
 <span><span class="co">#&gt; 3  Class AA     278   28.85612         29.0        61        8022</span></span>
 <span><span class="co">#&gt; 4   Class A     311   18.92283         18.0        42        5885</span></span></code></pre></div>
-<p>Alternatively, compare nations after restricting the data to runners
-completing at least 50 yards:</p>
+<p>To compare nations among runners completing at least 50 yards:</p>
 <div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span></span>
-<span>  <span class="fu"><a href="../reference/summarise_stopped_runners.html">summarise_stopped_runners</a></span><span class="op">(</span></span>
-<span>    group <span class="op">=</span> <span class="st">"nation"</span>,</span>
-<span>    min_yards <span class="op">=</span> <span class="fl">50</span></span>
-<span>  <span class="op">)</span></span>
-<span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="fu"><a href="../reference/summarise_stopped_runners.html">summarise_stopped_runners</a></span><span class="op">(</span>group <span class="op">=</span> <span class="st">"nation"</span>, min_yards <span class="op">=</span> <span class="fl">50</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co">#&gt;                      group runners mean_yards median_yards max_yards</span></span>
 <span><span class="co">#&gt; 1 United States of America      11   79.81818         83.0       106</span></span>
 <span><span class="co">#&gt; 2                Australia      13   72.46154         73.0        86</span></span>
@@ -243,33 +214,27 @@ completing at least 50 yards:</p>
 <span><span class="co">#&gt; 4         687</span></span>
 <span><span class="co">#&gt; 5         521</span></span>
 <span><span class="co">#&gt; 6         971</span></span></code></pre></div>
-<p>The function returns the same core summary measures used by the Shiny
-application.</p>
 </div>
 <div class="section level2">
-<h2 id="important-limitations">Important limitations<a class="anchor" aria-label="anchor" href="#important-limitations"></a>
+<h2 id="empty-selections-and-limitations">Empty selections and limitations<a class="anchor" aria-label="anchor" href="#empty-selections-and-limitations"></a>
 </h2>
-<p>The dataset contains 925 stopped-runner records from a snapshot taken
-after yard 124 of the 2026 championships.</p>
-<p>It does not represent the complete championship roster or official
-team standings.</p>
-<p>Consequently, the results describe performance among runners recorded
-as stopped in this snapshot, rather than the final performance of every
-championship participant.</p>
-<p>Comparisons involving groups with relatively few runners should also
-be interpreted cautiously.</p>
-<p>The original data was obtained from the <a href="https://wtc2026.bigsbackyardultra.com/#race" class="external-link">WTC 2026 Live
-Dashboard</a>.</p>
+<p>If you uncheck every competition class, the app explains that no
+runners match rather than displaying a misleading chart. In Performance
+comparison, selecting a minimum yard threshold above every runner in the
+selected group also produces an informative message. Broaden the
+selection or lower the threshold to continue.</p>
+<p>The data comes from the <a href="https://wtc2026.bigsbackyardultra.com/#race" class="external-link">WTC 2026 Live
+Dashboard</a>, captured as a CSV snapshot after yard 124. It contains
+925 <em>stopped</em> runners across 67 nations, not all competitors. It
+cannot be used to infer complete final standings, and comparing nations
+with different numbers of runners requires care.</p>
 </div>
 <div class="section level2">
-<h2 id="conclusion">Conclusion<a class="anchor" aria-label="anchor" href="#conclusion"></a>
+<h2 id="further-information">Further information<a class="anchor" aria-label="anchor" href="#further-information"></a>
 </h2>
-<p>The <code>backyardWTC</code> package provides two ways to explore
-runner performance: an interactive Shiny application and an R summary
-function.</p>
-<p>Together, these tools allow users to compare nations and competition
-classes, investigate different performance measures and explore the
-championship data while remaining aware of its limitations.</p>
+<p>See <code><a href="../reference/wtc_stopped.html">?wtc_stopped</a></code> for the data dictionary,
+<code><a href="../reference/summarise_stopped_runners.html">?summarise_stopped_runners</a></code> for the summary function and
+<code><a href="../reference/run_wtc_app.html">?run_wtc_app</a></code> for the app launcher.</p>
 </div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
     </nav></aside>
