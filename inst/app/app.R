@@ -67,6 +67,47 @@ ui <- fluidPage(
         font-size: 14px;
       }
 
+      .dashboard-tabs > .tabbable > .nav-tabs {
+        border-bottom: 2px solid #DCE8F2;
+        margin: 4px 0 24px;
+        display: flex;
+        gap: 8px;
+      }
+
+      .dashboard-tabs > .tabbable > .nav-tabs > li > a {
+        border: 1px solid #D9E4EE;
+        border-radius: 9px 9px 0 0;
+        background: #EAF2F8;
+        color: #31536E;
+        padding: 13px 18px;
+        font-weight: 700;
+      }
+
+      .dashboard-tabs > .tabbable > .nav-tabs > li.active > a,
+      .dashboard-tabs > .tabbable > .nav-tabs > li.active > a:hover,
+      .dashboard-tabs > .tabbable > .nav-tabs > li.active > a:focus {
+        background: #006DAE;
+        color: #FFFFFF;
+        border-color: #006DAE;
+      }
+
+      .tab-intro {
+        padding: 1px 3px 14px;
+      }
+
+      .tab-intro h3 {
+        color: #005E9C;
+        font-size: 20px;
+        margin: 0 0 7px;
+        font-weight: 700;
+      }
+
+      .tab-intro p {
+        font-size: 13px;
+        color: #52677B;
+        margin-bottom: 5px;
+      }
+
       .guide-grid {
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -464,218 +505,258 @@ ui <- fluidPage(
     div(
       class = "guide-card",
       h4("How to explore"),
-      p("Choose whether to compare nations or competition classes."),
-      p(
-        "Select nations to focus on particular countries, or leave the nation ",
-        "selection blank to include all nations. Choose one or more classes."
-      ),
-      p(
-        "Move the minimum-yards slider one yard at a time, or use its play ",
-        "button to watch the selected stopped-runner cohort progress. ",
-        "If nobody stopped at a particular yard, the number remaining stays unchanged."
-      ),
-      p(
-        "Use the progression chart to see when runners stopped; click a yard ",
-        "to inspect their names and stopping reasons. Switch the performance ",
-        "chart between summaries and runner distributions."
-      ),
-      p(
-        "The statistics table shows the top five groups by default. ",
-        "You can choose particular groups or show all."
-      )
+      p("Choose Race progression to see when runners stopped or Performance comparison to compare nations and classes."),
+      p("Each tab has its own nation, competition class and yard controls. Changing one tab does not change the other."),
+      p("The progression slider moves in single-yard steps. Click the chart to see who stopped at that yard."),
+      p("The performance line chart shows cumulative yards; runner counts are hover/legend labels, not plot positions."),
+      p("The statistics table shows five rows by default, with options to choose groups or show all.")
     )
   ),
   
-  sidebarLayout(
-    sidebarPanel(
-      h3("Explore the results"),
-      
-      div(
-        class = "choice-buttons",
-        radioButtons(
-          inputId = "group_by",
-          label = "Compare performance by",
-          choices = c("Nation" = "nation", "Competition class" = "class"),
-          selected = "nation",
-          inline = TRUE
-        )
-      ),
-      
-      selectizeInput(
-        inputId = "nations",
-        label = "Select nations (blank means all)",
-        choices = sort(unique(wtc$nation)),
-        selected = character(0),
-        multiple = TRUE
-      ),
-      
-      div(
-        class = "class-grid",
-        checkboxGroupInput(
-          inputId = "classes",
-          label = "Competition classes",
-          choices = sort(unique(wtc$class)),
-          selected = sort(unique(wtc$class))
-        )
-      ),
-      
-      sliderInput(
-        inputId = "min_yards",
-        label = "Minimum completed yards",
-        min = 0,
-        max = max(1, max(wtc$yards, na.rm = TRUE)),
-        value = 0,
-        step = 1,
-        sep = "",
-        ticks = FALSE,
-        animate = animationOptions(interval = 950, loop = FALSE)
-      ),
-      div(class = "yard-hint", textOutput("yard_limit", inline = TRUE)),
-      div(
-        class = "yard-stepper",
-        actionButton("yard_back", "← Previous yard"),
-        actionButton("yard_forward", "Next yard →")
-      ),
-      
-      div(
-        class = "choice-buttons",
-        radioButtons(
-          inputId = "metric",
-          label = "Performance measure",
-          choices = c("Median yards" = "median_yards", "Mean yards" = "mean_yards"),
-          selected = "median_yards",
-          inline = TRUE
-        )
-      ),
-      
-      div(
-        class = "choice-buttons",
-        radioButtons(
-          inputId = "plot_type",
-          label = "Chart view",
-          choices = c("Performance comparison" = "bars", "Runner distribution" = "distribution"),
-          selected = "bars",
-          inline = TRUE
-        )
-      ),
-      
-      conditionalPanel(
-        condition = "input.group_by == 'nation'",
-        sliderInput(
-          inputId = "top_n",
-          label = "Number of nations displayed",
-          min = 5,
-          max = 25,
-          value = 12
-        )
-      ),
-      
-      div(
-        class = "sidebar-tip",
-        "All charts and statistics update automatically when you change a control."
-      )
-    ),
-    
-    mainPanel(
-      div(
-        class = "output-card",
-        h3("Lap-by-lap progression"),
+  div(
+    class = "dashboard-tabs",
+    tabsetPanel(
+      id = "dashboard_tab",
+      selected = "Race progression",
+      tabPanel(
+        title = "Race progression",
+        value = "Race progression",
         div(
-          class = "summary-banner",
-          "Follow the selected stopped runners as the minimum completed-yard threshold increases. ",
-          "This is not a live count of all runners still racing."
+          class = "tab-intro",
+          h3("When do runners drop out?"),
+          p("Track the selected stopped-runner cohort one yard at a time. Clicking a point or bar selects that yard and updates the stopping details.")
         ),
-        uiOutput("progress_metrics"),
-        uiOutput("cohort_progress"),
-        div(
-          class = "progress-view choice-buttons",
-          radioButtons(
-            inputId = "progress_view",
-            label = "Progression chart",
-            choices = c(
-              "Runners reaching each yard" = "reaching",
-              "Stopped at each yard" = "stopped"
-            ),
-            selected = "reaching",
-            inline = TRUE
-          )
-        ),
-        plotlyOutput("progression_plot", height = "365px"),
-        p(
-          class = "progress-explainer",
-          "Move or play the yard slider, or click a point/bar in the chart. ",
-          "A runner with exactly X completed yards is counted as reaching X, ",
-          "then drops out when the threshold moves to X + 1."
-        ),
-        div(class = "lap-stop-heading", textOutput("lap_stop_title", inline = TRUE)),
-        div(class = "table-hint", textOutput("lap_stop_note", inline = TRUE)),
-        checkboxInput(
-          "all_lap_stops",
-          "Show all runners stopped at this yard (rather than the first 8)",
-          value = FALSE
-        ),
-        div(class = "table-scroll", tableOutput("lap_stop_table"))
-      ),
-      
-      div(
-        class = "output-card",
-        h3("Explore performance"),
-        div(class = "summary-banner", textOutput("summary_text")),
-        plotlyOutput(outputId = "performance_plot", height = "570px")
-      ),
-      
-      div(
-        class = "output-card",
-        h3("Summary statistics"),
-        div(
-          class = "table-controls",
-          div(
-            class = "choice-buttons",
-            radioButtons(
-              inputId = "table_mode",
-              label = "Rows to display",
-              choices = c("Top 5" = "top5", "Choose groups" = "custom", "All" = "all"),
-              selected = "top5",
-              inline = TRUE
-            )
-          ),
-          conditionalPanel(
-            condition = "input.table_mode == 'custom'",
+        sidebarLayout(
+          sidebarPanel(
+            h3("Progression filters"),
             selectizeInput(
-              inputId = "table_groups",
-              label = "Groups to include",
-              choices = NULL,
+              inputId = "progress_nations",
+              label = "Select nations (blank means all)",
+              choices = sort(unique(wtc$nation)),
               selected = character(0),
               multiple = TRUE
+            ),
+            div(
+              class = "class-grid",
+              checkboxGroupInput(
+                inputId = "progress_classes",
+                label = "Competition classes",
+                choices = sort(unique(wtc$class)),
+                selected = sort(unique(wtc$class))
+              )
+            ),
+            sliderInput(
+              inputId = "min_yards",
+              label = "Current completed yard",
+              min = 0,
+              max = max(1, max(wtc$yards, na.rm = TRUE)),
+              value = 0,
+              step = 1,
+              sep = "",
+              ticks = FALSE,
+              animate = animationOptions(interval = 950, loop = FALSE)
+            ),
+            div(class = "yard-hint", textOutput("yard_limit", inline = TRUE)),
+            div(
+              class = "yard-stepper",
+              actionButton("yard_back", "← Previous yard"),
+              actionButton("yard_forward", "Next yard →")
+            ),
+            div(
+              class = "sidebar-tip",
+              "These filters only affect Race progression. Your selections in Performance comparison are independent."
+            )
+          ),
+          mainPanel(
+            div(
+              class = "output-card",
+              h3("Lap-by-lap progression"),
+              div(
+                class = "summary-banner",
+                "Follow the selected stopped runners as the completed-yard threshold increases. ",
+                "This is not a live count of all runners still racing."
+              ),
+              uiOutput("progress_metrics"),
+              uiOutput("cohort_progress"),
+              div(
+                class = "progress-view choice-buttons",
+                radioButtons(
+                  inputId = "progress_view",
+                  label = "Progression chart",
+                  choices = c(
+                    "Runners reaching each yard" = "reaching",
+                    "Stopped at each yard" = "stopped"
+                  ),
+                  selected = "reaching",
+                  inline = TRUE
+                )
+              ),
+              plotlyOutput("progression_plot", height = "375px"),
+              p(
+                class = "progress-explainer",
+                "Move or play the yard slider, or click the chart. A runner with exactly ",
+                "X completed yards is counted at X, then drops out when the threshold reaches X + 1."
+              ),
+              div(class = "lap-stop-heading", textOutput("lap_stop_title", inline = TRUE)),
+              div(class = "table-hint", textOutput("lap_stop_note", inline = TRUE)),
+              checkboxInput(
+                "all_lap_stops",
+                "Show all runners who stopped at this yard (rather than the first 8)",
+                value = FALSE
+              ),
+              div(class = "table-scroll", tableOutput("lap_stop_table"))
+            ),
+            div(
+              class = "app-note",
+              h4("How to interpret progression"),
+              p("The line is a cumulative count of the selected runners who eventually stopped. ",
+                "It does not describe all participants or live race standings."),
+              p("Where no runner stopped at a yard, the remaining count stays unchanged ",
+                "when you advance to the next completed yard.")
             )
           )
-        ),
-        div(class = "table-hint", textOutput("table_display_note", inline = TRUE)),
-        div(class = "table-scroll", tableOutput("summary_table"))
+        )
       ),
-      
-      div(
-        class = "app-note",
-        h4("How to interpret the results"),
-        p(
-          strong("Bar chart: "),
-          "Each bar shows the chosen mean or median completed yards for a group. ",
-          "The 'Runners left' label counts stopped runners still included after filtering."
+      tabPanel(
+        title = "Performance comparison",
+        value = "Performance comparison",
+        div(
+          class = "tab-intro",
+          h3("How do nations and classes compare?"),
+          p("Compare accumulated yards and individual runner performance. These filters do not change the Race progression view.")
         ),
-        p(
-          strong("Distribution chart: "),
-          "Each dot represents one stopped runner. The middle line of each box ",
-          "is the median, and the box covers the middle 50% of completed-yard values."
-        ),
-        p(
-          strong("Mean versus median: "),
-          "The mean is the arithmetic average; the median is the middle value. ",
-          "Differences between them can suggest uneven performance distributions."
-        ),
-        p(
-          "Compare both typical performance and variation, and interpret ",
-          "groups with few runners cautiously. Use the table controls to ",
-          "choose which groups to show independently of the chart's top-N limit."
+        sidebarLayout(
+          sidebarPanel(
+            h3("Performance filters"),
+            div(
+              class = "choice-buttons",
+              radioButtons(
+                inputId = "group_by",
+                label = "Compare performance by",
+                choices = c("Nation" = "nation", "Competition class" = "class"),
+                selected = "nation",
+                inline = TRUE
+              )
+            ),
+            selectizeInput(
+              inputId = "performance_nations",
+              label = "Select nations (blank means all)",
+              choices = sort(unique(wtc$nation)),
+              selected = character(0),
+              multiple = TRUE
+            ),
+            div(
+              class = "class-grid",
+              checkboxGroupInput(
+                inputId = "performance_classes",
+                label = "Competition classes",
+                choices = sort(unique(wtc$class)),
+                selected = sort(unique(wtc$class))
+              )
+            ),
+            sliderInput(
+              inputId = "performance_min_yards",
+              label = "Minimum completed yards / highlighted yard",
+              min = 0,
+              max = max(1, max(wtc$yards, na.rm = TRUE)),
+              value = 0,
+              step = 1,
+              sep = "",
+              ticks = FALSE
+            ),
+            div(class = "yard-hint", textOutput("performance_yard_limit", inline = TRUE)),
+            div(
+              class = "choice-buttons",
+              radioButtons(
+                inputId = "plot_type",
+                label = "Chart view",
+                choices = c("Total yards (lines)" = "lines", "Runner distribution" = "distribution"),
+                selected = "lines",
+                inline = TRUE
+              )
+            ),
+            div(
+              class = "choice-buttons",
+              radioButtons(
+                inputId = "metric",
+                label = "Rank statistics by",
+                choices = c("Median yards" = "median_yards", "Mean yards" = "mean_yards"),
+                selected = "median_yards",
+                inline = TRUE
+              )
+            ),
+            conditionalPanel(
+              condition = "input.group_by == 'nation'",
+              sliderInput(
+                inputId = "top_n",
+                label = "Nations displayed (top totals)",
+                min = 5, max = 25, value = 12
+              )
+            ),
+            div(
+              class = "sidebar-tip",
+              "The line graph always shows cumulative total yards; the yard slider moves its highlight. ",
+              "The slider also sets the minimum for the distribution and statistics."
+            )
+          ),
+          mainPanel(
+            div(
+              class = "output-card",
+              h3("Explore performance"),
+              div(class = "summary-banner", textOutput("summary_text")),
+              plotlyOutput("performance_plot", height = "585px"),
+              p(
+                class = "progress-explainer",
+                "For the line chart, X is the completed-yard threshold and Y is total ",
+                "yards accumulated by each group to that threshold. The dashed line ",
+                "shows the selected yard. 'Runners left' appears only in labels and hover ",
+                "details; counts do not set the plotted coordinates or marker sizes."
+              )
+            ),
+            div(
+              class = "output-card",
+              h3("Summary statistics"),
+              div(
+                class = "table-controls",
+                div(
+                  class = "choice-buttons",
+                  radioButtons(
+                    inputId = "table_mode",
+                    label = "Rows to display",
+                    choices = c("Top 5" = "top5", "Choose groups" = "custom", "All" = "all"),
+                    selected = "top5",
+                    inline = TRUE
+                  )
+                ),
+                conditionalPanel(
+                  condition = "input.table_mode == 'custom'",
+                  selectizeInput(
+                    inputId = "table_groups",
+                    label = "Groups to include",
+                    choices = NULL,
+                    selected = character(0),
+                    multiple = TRUE
+                  )
+                )
+              ),
+              div(class = "table-hint", textOutput("table_display_note", inline = TRUE)),
+              div(class = "table-scroll", tableOutput("summary_table"))
+            ),
+            div(
+              class = "app-note",
+              h4("How to interpret the results"),
+              p(strong("Total-yards line chart: "),
+                "Lines show cumulative yards for each nation or class. Runner counts ",
+                "are contextual labels, not the vertical values."),
+              p(strong("Runner distribution: "),
+                "Each point represents one stopped runner; the box shows the median and middle 50%."),
+              p(strong("Mean versus median: "),
+                "The mean is the arithmetic average; the median is the middle value. ",
+                "Small groups can produce unstable comparisons."),
+              p("Groups with more runners can naturally accumulate more total yards. ",
+                "Use the mean or median for typical individual performance.")
+            )
+          )
         )
       )
     )
@@ -695,37 +776,59 @@ ui <- fluidPage(
 # Server
 server <- function(input, output, session) {
   
-  # Keep yard slider maximum in step with selected nations and classes.
-  # A blank nation selection means all nations.
-  available_yards <- reactive({
-    data <- wtc[wtc$class %in% input$classes, , drop = FALSE]
-    
-    if (length(input$nations) > 0) {
-      data <- data[data$nation %in% input$nations, , drop = FALSE]
+  # Progression tab: filter nation and class independently of performance tab.
+  progress_filtered_data <- reactive({
+    data <- wtc[wtc$class %in% input$progress_classes, , drop = FALSE]
+    if (length(input$progress_nations) > 0) {
+      data <- data[data$nation %in% input$progress_nations, , drop = FALSE]
     }
-    
-    values <- data$yards[is.finite(data$yards)]
-    if (length(values) == 0) return(0)
+    data
+  })
+  
+  # Performance tab: a different selection, preserved when changing tabs.
+  performance_filtered_data <- reactive({
+    data <- wtc[wtc$class %in% input$performance_classes, , drop = FALSE]
+    if (length(input$performance_nations) > 0) {
+      data <- data[data$nation %in% input$performance_nations, , drop = FALSE]
+    }
+    data
+  })
+  
+  # Each tab's yard slider adapts to the classes/nations in THAT tab.
+  available_yards <- reactive({
+    values <- progress_filtered_data()$yards
+    values <- values[is.finite(values)]
+    if (!length(values)) return(0)
     max(values)
   })
   
   observeEvent(available_yards(), {
-    limit <- available_yards()
-    # A slider needs a positive range even if there are no matching runners.
-    slider_max <- max(1, ceiling(limit))
+    limit <- max(1, ceiling(available_yards()))
     current <- input$min_yards
     if (is.null(current) || !is.finite(current)) current <- 0
-    
     updateSliderInput(
-      session, "min_yards",
-      min = 0,
-      max = slider_max,
-      value = min(current, slider_max),
-      step = 1
+      session, "min_yards", min = 0, max = limit,
+      value = min(current, limit), step = 1
     )
   })
   
-  # A consistent one-yard increment is always available, even on touchpads.
+  performance_available_yards <- reactive({
+    values <- performance_filtered_data()$yards
+    values <- values[is.finite(values)]
+    if (!length(values)) return(0)
+    max(values)
+  })
+  
+  observeEvent(performance_available_yards(), {
+    limit <- max(1, ceiling(performance_available_yards()))
+    current <- input$performance_min_yards
+    if (is.null(current) || !is.finite(current)) current <- 0
+    updateSliderInput(
+      session, "performance_min_yards", min = 0, max = limit,
+      value = min(current, limit), step = 1
+    )
+  })
+  
   observeEvent(input$yard_back, {
     current <- if (is.null(input$min_yards)) 0 else input$min_yards
     updateSliderInput(session, "min_yards", value = max(0, current - 1))
@@ -733,45 +836,35 @@ server <- function(input, output, session) {
   
   observeEvent(input$yard_forward, {
     current <- if (is.null(input$min_yards)) 0 else input$min_yards
-    updateSliderInput(
-      session, "min_yards",
-      value = min(available_yards(), current + 1)
-    )
+    updateSliderInput(session, "min_yards",
+                      value = min(available_yards(), current + 1))
   })
   
   output$yard_limit <- renderText({
-    paste0(
-      "Highest available: ", format(available_yards(), trim = TRUE),
-      " yards for the selected nations and classes. Steps are always 1 yard."
-    )
+    paste0("Highest available: ", format(available_yards(), trim = TRUE),
+           " yards for the progression selection. Step: 1 yard.")
   })
   
-  # Filter classes and nations before applying the yard threshold
-  filtered_data <- reactive({
-    validate(
-      need(length(input$classes) > 0, "Please select at least one competition class."),
-      need(length(input$min_yards) == 1 &&
-             is.finite(input$min_yards) && input$min_yards >= 0,
-           "Please choose a valid non-negative minimum yard count.")
-    )
-    
-    data <- wtc[wtc$class %in% input$classes, , drop = FALSE]
-    
-    if (length(input$nations) > 0) {
-      data <- data[data$nation %in% input$nations, , drop = FALSE]
-    }
-    
-    data
+  output$performance_yard_limit <- renderText({
+    paste0("Highest available: ", format(performance_available_yards(), trim = TRUE),
+           " yards for the performance selection. Step: 1 yard.")
+  })
+  
+  # Progression data for the lap-by-lap view.
+  cohort <- reactive({
+    data <- progress_filtered_data()
+    data[is.finite(data$yards) & data$yards >= 0, , drop = FALSE]
+  })
+  
+  # Performance data for the charts and tables; never read progression inputs.
+  performance_cohort <- reactive({
+    data <- performance_filtered_data()
+    data[is.finite(data$yards) & data$yards >= 0, , drop = FALSE]
   })
   
   # Lap-by-lap progression is based on the selected STOPPED runners only.
   # A runner with Y completed yards contributes to every threshold 0,...,Y.
   # Moving from threshold Y to Y+1 removes anyone recorded as stopping at Y.
-  cohort <- reactive({
-    data <- filtered_data()
-    data[is.finite(data$yards) & data$yards >= 0, , drop = FALSE]
-  })
-  
   lap_progress <- reactive({
     data <- cohort()
     max_yard <- if (nrow(data) == 0) 0L else as.integer(max(data$yards))
@@ -966,9 +1059,9 @@ server <- function(input, output, session) {
   summary_data <- reactive({
     req(input$group_by)
     backyardWTC::summarise_stopped_runners(
-      data = filtered_data(),
+      data = performance_filtered_data(),
       group = input$group_by,
-      min_yards = input$min_yards
+      min_yards = input$performance_min_yards
     )
   })
   
@@ -1016,6 +1109,46 @@ server <- function(input, output, session) {
     )
   })
   
+  # Cumulative completed yards through each threshold, for the selected cohort.
+  # A runner who completed Y yards contributes one yard at each of yards 1,...,Y.
+  # The group is chosen using its final total yards, independently of counts
+  # and the mean/median table ranking setting.
+  performance_lines <- reactive({
+    data <- performance_cohort()
+    req(input$group_by)
+    validate(need(nrow(data) > 0, "Select nations and classes containing runners."))
+    
+    grouped <- data.frame(
+      group = as.character(data[[input$group_by]]),
+      yards = as.integer(data$yards),
+      stringsAsFactors = FALSE
+    )
+    totals <- stats::aggregate(yards ~ group, data = grouped, FUN = sum)
+    totals <- totals[order(-totals$yards, totals$group), , drop = FALSE]
+    groups <- totals$group
+    if (input$group_by == "nation") groups <- head(groups, input$top_n)
+    
+    max_yard <- as.integer(max(grouped$yards))
+    yard_axis <- seq.int(0L, max_yard, by = 1L)
+    
+    series <- lapply(groups, function(group_name) {
+      completed <- grouped$yards[grouped$group == group_name]
+      stopped <- tabulate(completed + 1L, nbins = length(yard_axis))
+      remaining <- rev(cumsum(rev(stopped)))
+      # Cumulative yards through yard X = sum(min(runner_yards, X)).
+      cumulative <- c(0, cumsum(remaining[-1L]))
+      
+      data.frame(
+        group = group_name,
+        yard = yard_axis,
+        total_yards = cumulative,
+        runners_left = remaining,
+        stringsAsFactors = FALSE
+      )
+    })
+    do.call(rbind, series)
+  })
+  
   # Describe active filters and flag small groups
   output$summary_text <- renderText({
     results <- summary_data()
@@ -1032,12 +1165,22 @@ server <- function(input, output, session) {
     group_label <- if (input$group_by == "nation") "nations" else "competition classes"
     metric_label <- if (input$metric == "median_yards") "median" else "mean"
     
-    message <- paste0(
-      sum(results$runners), " stopped runners across ",
-      nrow(results), " ", group_label,
-      " match your selection. Groups are ranked by ",
-      metric_label, " completed yards."
-    )
+    if (identical(input$plot_type, "lines")) {
+      message <- paste0(
+        "Each line shows cumulative total yards across completed-yard thresholds ",
+        "for a selected ", if (input$group_by == "nation") "nation" else "competition class",
+        ". The current slider yard is marked on the chart. ",
+        "The legend shows runners left at that yard; counts never set line height. ",
+        "The table is ranked by ", metric_label, " completed yards."
+      )
+    } else {
+      message <- paste0(
+        sum(results$runners), " stopped runners across ",
+        nrow(results), " ", group_label,
+        " match your selection. Groups are ranked by ",
+        metric_label, " completed yards."
+      )
+    }
     
     small_groups <- sum(results$runners < 5)
     if (small_groups > 0) {
@@ -1075,10 +1218,10 @@ server <- function(input, output, session) {
     
     # This box chart shows both group spread and individual stopped runners.
     if (input$plot_type == "distribution") {
-      runner_data <- filtered_data()
+      runner_data <- performance_filtered_data()
       runner_data <- runner_data[
         !is.na(runner_data$yards) &
-          runner_data$yards >= input$min_yards &
+          runner_data$yards >= input$performance_min_yards &
           runner_data[[input$group_by]] %in% results$group,
         , drop = FALSE
       ]
@@ -1133,52 +1276,94 @@ server <- function(input, output, session) {
       )
     }
     
-    # Ranking bars are interactive and label the post-filter runner count.
-    results$end_label <- paste0("Runners left = ", results$runners)
-    results$hover_label <- paste0(
-      "<b>", results$group, "</b>",
-      "<br>", metric_label, ": ", round(results$value, 1),
-      "<br>Stopped runners after filtering: ", results$runners,
-      "<br>Maximum yards: ", results$max_yards
+    # Draw genuine line series over yard thresholds, rather than connecting
+    # unrelated country/class categories. Vertical positions depend only on
+    # cumulative total completed yards, never on the displayed runner counts.
+    lines <- performance_lines()
+    current <- as.integer(input$performance_min_yards)
+    groups <- unique(lines$group)
+    line_colours <- c(
+      "#006DAE", "#D97A25", "#17846B", "#8E64B0", "#C85B76",
+      "#4A86C6", "#B39B31", "#497E62", "#A65A38", "#557A94",
+      "#9C5797", "#3197A0", "#705A91", "#9C783F", "#3C7895"
     )
+    line_colours <- rep(line_colours, length.out = length(groups))
     
-    p <- plotly::plot_ly(
-      data = results,
-      x = ~value,
-      y = ~group,
-      type = "bar",
-      orientation = "h",
-      marker = list(color = monash_blue),
-      width = 0.7,
-      text = ~end_label,
-      textposition = "outside",
-      textfont = list(color = "#43566A", size = 11),
-      hovertext = ~hover_label,
-      hoverinfo = "text",
-      cliponaxis = FALSE,
-      showlegend = FALSE
-    )
+    p <- plotly::plot_ly(source = "performance_yards")
+    for (i in seq_along(groups)) {
+      group_name <- groups[[i]]
+      group_lines <- lines[lines$group == group_name, , drop = FALSE]
+      selected <- group_lines[group_lines$yard == current, , drop = FALSE]
+      # The legend and tooltips show the runner count, with a fixed marker size.
+      legend_name <- paste0(
+        group_name, " | Runners left = ", selected$runners_left[[1]]
+      )
+      group_lines$hover_label <- paste0(
+        "<b>", group_name, "</b>",
+        "<br>Yard: ", group_lines$yard,
+        "<br>Total yards completed through this yard: ",
+        format(group_lines$total_yards, big.mark = ",", scientific = FALSE),
+        "<br>Runners left = ", group_lines$runners_left
+      )
+      selected$hover_label <- paste0(
+        "<b>", group_name, "</b>",
+        "<br>Selected yard: ", current,
+        "<br>Total completed yards: ",
+        format(selected$total_yards, big.mark = ",", scientific = FALSE),
+        "<br>Runners left = ", selected$runners_left
+      )
+      
+      p <- plotly::add_trace(
+        p, data = group_lines,
+        x = ~yard, y = ~total_yards,
+        type = "scatter", mode = "lines",
+        name = legend_name, legendgroup = group_name,
+        line = list(color = line_colours[[i]], width = 2.4),
+        hovertext = ~hover_label, hoverinfo = "text",
+        showlegend = TRUE, inherit = FALSE
+      )
+      p <- plotly::add_trace(
+        p, data = selected,
+        x = ~yard, y = ~total_yards,
+        type = "scatter", mode = "markers",
+        name = group_name, legendgroup = group_name,
+        marker = list(
+          color = line_colours[[i]], size = 10,
+          line = list(color = "#FFFFFF", width = 1.5)
+        ),
+        hovertext = ~hover_label, hoverinfo = "text",
+        showlegend = FALSE, inherit = FALSE
+      )
+    }
     
     plotly::config(
       plotly::layout(
         p,
-        title = list(text = "Runner performance comparison"),
+        title = list(text = "Cumulative yards completed by nation or class", font = list(size = 15)),
         xaxis = list(
-          title = metric_label,
-          range = c(0, max(results$value, na.rm = TRUE) * 1.48 + 1),
-          zeroline = FALSE,
-          gridcolor = "#EAF0F5"
+          title = "Completed-yard threshold", dtick = 10,
+          range = c(0, max(1, max(lines$yard))),
+          zeroline = FALSE, gridcolor = "#EAF0F5"
         ),
         yaxis = list(
-          title = "",
-          categoryorder = "array",
-          categoryarray = rev(results$group)
+          title = "Total yards completed through this yard",
+          rangemode = "tozero", zeroline = FALSE, gridcolor = "#EAF0F5",
+          separatethousands = TRUE
+        ),
+        shapes = list(list(
+          type = "line", x0 = current, x1 = current,
+          y0 = 0, y1 = 1, yref = "paper",
+          line = list(color = "#ED8A32", width = 2, dash = "dash")
+        )),
+        legend = list(
+          x = 1.02, y = 1, xanchor = "left", yanchor = "top",
+          font = list(size = 10), title = list(text = "Groups (at selected yard)")
         ),
         paper_bgcolor = plot_style$paper_bgcolor,
         plot_bgcolor = plot_style$plot_bgcolor,
         font = plot_style$font,
-        margin = plot_style$margin,
-        showlegend = FALSE
+        margin = list(l = 92, r = 240, t = 65, b = 70),
+        showlegend = TRUE
       ),
       displaylogo = FALSE,
       responsive = TRUE
